@@ -1,22 +1,14 @@
+/*
+    ESTILOS GENERALES PARA TODO
+*/
+/* FUENTES EXTERNAS */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Patua+One&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700&display=swap');
 
+/* FUENTES LOCALES */
+@import url('fuentes.css');
 
-
-@font-face {
-    font-family: 'OperatorMono';
-    font-style: normal;
-    font-weight: 300;
-    src: url('../assets/fonts/OperatorMono-XLight.otf');
-}
-
-@font-face {
-    font-family: 'OperatorMono';
-    font-style: normal;
-    font-weight: 600;
-    src: url('../assets/fonts/OperatorMono-Medium.otf');
-}
 
 /* 
 ESTILOS IMPORTABLES
@@ -38,10 +30,29 @@ ESTILOS IMPORTABLES
  --color-cuatro:#8bc53f;
  --color-cinco:#ed4036;
  }
+ .fondoNegro {
+    background: -webkit-gradient(linear, 100% 81%, 20% 0%, from(#1c1c1c), to(#3d3d3d));
+ }
+.sombraUno {
+    box-shadow: 1px 39px 39px #000000;
+}
+.transparenciaUno {
+    background: rgba(0,0,0,0.3) !important;
+}
+.sombra-texto {
+    text-shadow: 5px 10px 5px #000000;
+}
  .colorNegro {
    background: black;
- }
+}
  
+.comillas {
+    font-size: 100px;
+    line-height: 40px;
+    font-family: 'OperatorMono';
+    margin-top: 7rem;
+}
+
  .espacio{
      height: 50px;
  }
@@ -81,9 +92,40 @@ ESTILOS IMPORTABLES
  .text-shadow {
    text-shadow: black 0.1em 0.1em 0.2em;
  }
- /* ------------------------------------
- ESTILOS IMPORTABLES
- */
+/* 
+    ESTILOS IMPORTABLES
+*/
+
+/* 
+    ESTILOS CAROUSEL FRASES
+*/
+ .retire-dots .owl-dots {
+    display: none !important;
+ }
+
+/* 
+    ESTILOS MENU CATEGORIAS
+*/
+.categorias {
+    font-size: 3rem;
+    font-family: var(--fuente-dos);
+    font-weight: bold;
+    letter-spacing: 12px;
+    border-bottom: 2px solid #dc9047;
+}
+.menu-categorias {
+    background: url(../assets/categorias/fondo.jpg);
+    background-size: cover;
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-shadow: 1px 39px 39px #000000;
+    margin-bottom: 5rem;
+}
+.drop {
+    filter: drop-shadow(0 11px 1px rgba(0, 0, 0, 0.7));
+}
+
 .fuenteTitulo {
     font-family: 'Patua One', cursive;
 }
