@@ -1,0 +1,26 @@
+.tituloPost {
+    font-size: 3.5rem;
+    font-weight: 600;
+    font-family: var(--fuente-dos);
+    text-transform: uppercase;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+.headerPost {
+    height: 373px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.titulo-vertical{
+    transform: rotate(-90deg);
+    color: #fff;
+    font-family: var(--fuente-dos);
+}
+.subTituloPost {
+    font-family: 'OperatorMono';
+    color: #f6921e;
+    font-size: 40px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-weight: 600 !important;
+}

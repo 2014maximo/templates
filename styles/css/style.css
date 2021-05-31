@@ -30,6 +30,9 @@ ESTILOS IMPORTABLES
  --color-cuatro:#8bc53f;
  --color-cinco:#ed4036;
  }
+ .fuenteDos {
+     font-family: var(--fuente-dos);
+ }
  .fondoNegro {
     background: -webkit-gradient(linear, 100% 81%, 20% 0%, from(#1c1c1c), to(#3d3d3d));
  }
@@ -57,6 +60,15 @@ ESTILOS IMPORTABLES
     line-height: 40px;
     font-family: 'OperatorMono';
     margin-top: 7rem;
+}
+
+a {
+    color: #fff;
+    transition: 0.3s;
+}
+a:hover {
+    color: #f6921e;
+    text-decoration: none;
 }
 
  .espacio{
