@@ -16,3 +16,7 @@ function menuUno(menu, ancho){
 function cierreMenu(menu) {
     document.getElementById(menu).style.width = "0";
 }
+
+function abrirUrl(url) {
+    window.open(url);
+}
