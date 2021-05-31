@@ -90,3 +90,35 @@
 .wrappers .youtube:hover .tooltips::before {
     background: #DE463B;
 }
+.wrappers .whatsapp:hover span,
+.wrappers .whatsapp:hover .tooltips, 
+.wrappers .whatsapp:hover .tooltips::before {
+    background: #19960f;
+}
+.wrappers .gitlab:hover span,
+.wrappers .gitlab:hover .tooltips, 
+.wrappers .gitlab:hover .tooltips::before {
+    background: #fc6d26;
+}
+.wrappers .trello:hover span,
+.wrappers .trello:hover .tooltips, 
+.wrappers .trello:hover .tooltips::before {
+    background: #085dd7;
+}
+.wrappers .telegram:hover span,
+.wrappers .telegram:hover .tooltips, 
+.wrappers .telegram:hover .tooltips::before {
+    background: #5682a3;
+}
+.wrappers .slack:hover span,
+.wrappers .slack:hover .tooltips, 
+.wrappers .slack:hover .tooltips::before {
+    background: #3e1040;
+}
+.wrappers .skype:hover span,
+.wrappers .skype:hover .tooltips, 
+.wrappers .skype:hover .tooltips::before {
+    background: #1e8cdb;
+}
+
+
