@@ -45,7 +45,13 @@ ESTILOS IMPORTABLES
  .colorNegro {
    background: black;
 }
- 
+
+.header {
+    padding: 0px;
+    color: #f1f1f1;
+    z-index: 999;
+    background: white;
+}
 .comillas {
     font-size: 100px;
     line-height: 40px;
@@ -63,7 +69,7 @@ ESTILOS IMPORTABLES
    font-family: var(--fuente-uno);
  }
  .tituloDos{
-   font-family: var(--fuente-dos);
+   font-family: var(--fuente-dos) !important;
  }
  .tituloTres{
    font-family: var(--fuente-tres);
@@ -140,6 +146,8 @@ ESTILOS IMPORTABLES
     border-bottom: 1 white;
     height: 35px;
     width: 100%;
+    font-family: 'Open Sans Condensed', sans-serif;
+    padding-left: 10px;
 }
 .transparencia {
     background: rgba(0,0,0,0.4);

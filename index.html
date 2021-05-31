@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/css/home.css">
     <link rel="stylesheet" href="styles/css/style.css">
 
+
             <!-- Owl Stylesheets -->
-            <link rel="stylesheet" href="styles/css/owl.carousel.min.css">
-            <link rel="stylesheet" href="styles/css/owl.theme.default.min.css">
-                    <!-- javascript -->
+    <link rel="stylesheet" href="styles/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="styles/css/owl.theme.default.min.css">
+            <!-- javascript -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="styles/js/owl.carousel.js"></script>
 
@@ -19,7 +21,7 @@
 <body class="mt-5 fondoNegro">
 
 <!-- HEADER ------------------------------------------------------------------------->
-    <div class="bg-dark fixed-top text-primary pt-3 pb-3 grandes transparenciaUno">
+    <div class="bg-dark header fixed-top text-primary pt-3 pb-3 grandes transparenciaUno">
         <div class="row">
             <div class="col-1"></div>
             <div class="col-4">
@@ -36,8 +38,8 @@
     <div class="pos-f-t mobile fixed-top">
         <div class="collapse" id="navbarToggleExternalContent">
           <div class="bg-dark p-4">
-            <form class="formUno">
-                <input class="inputUno text-light fuente bg-transparent" type="search" placeholder="Buscar" aria-label="Search">
+            <form class="formUno tituloDos">
+                <input class="inputUno text-light bg-transparent" type="search" placeholder="Buscar" aria-label="Search">
             </form>
           </div>
         </div>
@@ -208,8 +210,8 @@
   </div>
   <div class="col-md-1"></div>
 </div>
-
 <!-- FIN SLIDERS FRASES ------------------------------------------------------------------------>
+
 
 <div class="espaciado"></div>
 
@@ -224,27 +226,48 @@
         <div class="menu-categorias p-5">
 
           <div class="d-flex justify-content-around mb-5 align-items-center">
-            <img src="styles/assets/categorias/angular.png" alt="" width="auto" height="80" class="drop">
-            <img src="styles/assets/categorias/angular.png" alt="" width="auto" height="80" class="drop">
-            <img src="styles/assets/categorias/angular.png" alt="" width="auto" height="80" class="drop">
-            <img src="styles/assets/categorias/angular.png" alt="" width="auto" height="80" class="drop">
-            <img src="styles/assets/categorias/angular.png" alt="" width="auto" height="80" class="drop">
+            <div class="linkCategoria" onClick="menuUno('angular', '80%')">
+              <img src="styles/assets/categorias/angular.png" alt="" width="auto" height="80" class="drop">
+            </div>
+            <div class="linkCategoria" onClick="menuUno('php', '80%')">
+              <img src="styles/assets/categorias/php.png" alt="" width="auto" height="80" class="drop">
+            </div>
+            <div class="linkCategoria" onClick="menuUno('html', '80%')">
+              <img src="styles/assets/categorias/html.png" alt="" width="auto" height="80" class="drop">
+            </div>
+            <div class="linkCategoria" onClick="menuUno('css', '80%')">
+              <img src="styles/assets/categorias/css.png" alt="" width="auto" height="80" class="drop">
+            </div>
+            <div class="linkCategoria" onClick="menuUno('javascript', '80%')">
+              <img src="styles/assets/categorias/javascript.png" alt="" width="auto" height="80" class="drop">
+            </div>
           </div>
 
           <div class="d-flex justify-content-around mb-5 align-items-center">
-            <img src="styles/assets/categorias/angular.png" alt="" width="auto" height="80" class="drop">
-            <img src="styles/assets/categorias/angular.png" alt="" width="auto" height="80" class="drop">
-            <img src="styles/assets/categorias/angular.png" alt="" width="auto" height="80" class="drop">
-            <img src="styles/assets/categorias/angular.png" alt="" width="auto" height="80" class="drop">
-            <img src="styles/assets/categorias/angular.png" alt="" width="auto" height="80" class="drop">
+            <div class="linkCategoria" onClick="menuUno('wordpress', '80%')">
+              <img src="styles/assets/categorias/wordpress2.png" alt="" width="auto" height="80" class="drop">
+            </div>
+            <div class="linkCategoria" onClick="menuUno('linuxmint', '80%')">
+              <img src="styles/assets/categorias/linuxmint.png" alt="" width="auto" height="80" class="drop">
+            </div>
+            <div class="linkCategoria" onClick="menuUno('debian', '80%')">
+              <img src="styles/assets/categorias/debian.png" alt="" width="auto" height="80" class="drop">
+            </div>
+            <div class="linkCategoria" onClick="menuUno('java', '80%')">
+              <img src="styles/assets/categorias/logo-java.png" alt="" width="auto" height="120" class="drop">
+            </div>
           </div>
-          
+
           <div class="d-flex justify-content-around mb-5 align-items-center">
-            <img src="styles/assets/categorias/angular.png" alt="" width="auto" height="80" class="drop">
-            <img src="styles/assets/categorias/angular.png" alt="" width="auto" height="80" class="drop">
-            <img src="styles/assets/categorias/angular.png" alt="" width="auto" height="80" class="drop">
-            <img src="styles/assets/categorias/angular.png" alt="" width="auto" height="80" class="drop">
-            <img src="styles/assets/categorias/angular.png" alt="" width="auto" height="80" class="drop">
+            <div class="linkCategoria" onClick="menuUno('visual_studio_code', '80%')">
+              <img src="styles/assets/categorias/visual_studio_code_text_white.png" alt="" width="auto" height="100" class="drop">
+            </div>
+            <div class="linkCategoria" onClick="menuUno('flutter', '80%')">
+              <img src="styles/assets/categorias/flutter_text_white.png" alt="" width="auto" height="100" class="drop">
+            </div>
+            <div class="linkCategoria" onClick="menuUno('dart', '80%')">
+              <img src="styles/assets/categorias/dart_text_white.png" alt="" width="auto" height="40" class="drop">
+            </div>
           </div>
 
         </div>
@@ -258,6 +281,37 @@
   <div class="col-md-1"></div>
 </div>
 <!-- FIN MENU CATEGORIAS------------------------------------------------------------------------>
+
+
+<!-- CONTENIDO DE CADA CATEGORIA------------------------------------------------------------------------>
+<div id="angular" class="sidenav">
+  <div class="text-right">
+    <a href="javascript:void(0)" class="closebtn" onclick="cierreMenu('angular')">&times;</a>
+  </div>
+  <div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-10">
+      <ul class="text-light">
+        <li>
+          <a href="componentes/menu/ANGULAR/1. Instalación de angular y recomendaciones.html">1. Instalación de angular y recomendaciones</a>
+        </li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+    <div class="col-md-1"></div>
+  </div>
+</div>
+
+
+
+
+
+<!-- FIN CONTENIDO DE CADA CATEGORIA------------------------------------------------------------------------>
+
+
 
 
 
@@ -294,7 +348,7 @@ $('.stop').on('click',function(){
 })
 
 </script>
-
+    <script src="styles/js/scripts.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
