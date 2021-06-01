@@ -30,6 +30,9 @@ ESTILOS IMPORTABLES
  --color-cuatro:#8bc53f;
  --color-cinco:#ed4036;
  }
+ .fuenteUno {
+    font-family: var(--fuente-uno);
+}
  .fuenteDos {
      font-family: var(--fuente-dos);
  }
