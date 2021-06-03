@@ -92,6 +92,9 @@ a:hover {
  .tituloCuatro {
    font-family: var(--fuente-cuatro);
  }
+ .titleBig{
+     font-size: 146px;
+ }
  .fw-3 {
      font-weight: 300 !important;
  }
