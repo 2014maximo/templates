@@ -116,6 +116,9 @@ a:hover {
  .fs-40{
    font-size: 40px !important;
  }
+ .lh-18{
+     line-height: 18px !important;
+ }
  .text-shadow {
    text-shadow: black 0.1em 0.1em 0.2em;
  }
