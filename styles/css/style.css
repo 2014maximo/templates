@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Patua+One&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700&display=swap');
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
 /* FUENTES LOCALES */
 @import url('fuentes.css');
@@ -64,7 +65,9 @@ ESTILOS IMPORTABLES
     font-family: 'OperatorMono';
     margin-top: 7rem;
 }
-
+.cursor-p {
+    cursor: pointer;
+}
 a {
     color: #fff;
     transition: 0.3s;
