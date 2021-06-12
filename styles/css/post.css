@@ -12,11 +12,6 @@
     align-items: center;
     justify-content: center;
 }
-.titulo-vertical{
-    transform: rotate(-90deg);
-    color: #fff;
-    font-family: var(--fuente-dos);
-}
 .subTituloPost {
     font-family: 'OperatorMono';
     color: #f6921e;

@@ -104,7 +104,7 @@ a:hover {
  .fw-6{
    font-weight: 600 !important;
  }
- .fw-3{
+ .fw-3{@media only screen and (max-width:414px) and (min-width:320px){ }
    font-weight: 300 !important;
  }
  .fs-17 {
@@ -185,7 +185,17 @@ a:hover {
 .transparencia {
     background: rgba(0,0,0,0.4);
 }
+.titulo-vertical{
+    transform: rotate(-90deg);
+    color: #fff;
+    font-family: var(--fuente-dos);
+}
 
+@media (max-width: 576px) {
+    .titulo-vertical{
+        transform: rotate(0deg);
+    }
+}
 
 @media (max-width: 601px) {
     .grandes {
