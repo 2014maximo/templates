@@ -191,7 +191,7 @@ a:hover {
     font-family: var(--fuente-dos);
 }
 
-@media (max-width: 576px) {
+@media (max-width: 992px) {
     .titulo-vertical{
         transform: rotate(0deg);
     }
