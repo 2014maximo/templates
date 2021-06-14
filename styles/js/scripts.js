@@ -20,3 +20,17 @@ function cierreMenu(menu) {
 function abrirUrl(url) {
     window.open(url);
 }
+
+function copiarAlPortapapeles(id_elemento) {
+  
+
+  var aux = document.createElement("input");
+  aux.setAttribute("value", id_elemento);
+  
+  document.body.appendChild(aux);
+  aux.select();
+  console.log(document.body.appendChild(aux), 'LO QUE TIENE DOCUMENT BODY');
+  document.execCommand("copy");
+
+  /* document.body.removeChild(aux); */
+}
