@@ -22,15 +22,10 @@ function abrirUrl(url) {
 }
 
 function copiarAlPortapapeles(id_elemento) {
-  
-
   var aux = document.createElement("input");
-  aux.setAttribute("value", id_elemento);
-  
+  aux.setAttribute("value", (document.getElementById(id_elemento).innerHTML).trim());
   document.body.appendChild(aux);
   aux.select();
-  console.log(document.body.appendChild(aux), 'LO QUE TIENE DOCUMENT BODY');
   document.execCommand("copy");
-
-  /* document.body.removeChild(aux); */
+  document.body.removeChild(aux);
 }

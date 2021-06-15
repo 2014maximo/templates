@@ -44,6 +44,9 @@ ESTILOS IMPORTABLES
  .fuenteDos {
      font-family: var(--fuente-dos);
  }
+ .fuenteTres {
+     font-family: var(--fuente-tres);
+ }
  .fondoNegro {
     background: -webkit-gradient(linear, 100% 81%, 20% 0%, from(#1c1c1c), to(#3d3d3d));
  }
@@ -61,34 +64,37 @@ ESTILOS IMPORTABLES
 }
 .t1 {
     color: var(--color-uno) /* NARANJA */
-  }
-  .t2{
-    color: var(--color-dos) /* NEGRO */
-  }
-  .t3{
-    color: var(--color-tres) /* AZUL CLARO */
-  }
-  .t4{
-    color: var(--color-cuatro) /* VERDE CLARO */
-  }
-  .t5{
-    color: var(--color-cinco) /* ROJO */
-  }
-  .t6{
-    color: var(--color-seis) /* VIOLETA */
-  }
-  .t7{
-    color: yellow;
-  }
-  .t8{
-    color: var(--color-siete); /* GRIS */
-  }
-  .t9{
-    color: var(--color-ocho); /* GRIS VERDOSO */
-  }
-  .t10{
-    color: var(--color-nueve); /* AZUL CLARO OTRO TONO */
-  }
+}
+.t2{
+  color: var(--color-dos) /* NEGRO */
+}
+.t3{
+  color: var(--color-tres) /* AZUL CLARO */
+}
+.t4{
+  color: var(--color-cuatro) /* VERDE CLARO */
+}
+.t5{
+  color: var(--color-cinco) /* ROJO */
+}
+.t6{
+  color: var(--color-seis) /* VIOLETA */
+}
+.t7{
+  color: yellow;
+}
+.t8{
+  color: var(--color-siete); /* GRIS */
+}
+.t9{
+  color: var(--color-ocho); /* GRIS VERDOSO */
+}
+.t10{
+  color: var(--color-nueve); /* AZUL CLARO OTRO TONO */
+}
+.w-320{
+    width: 320px;
+}
 .header {
     padding: 0px;
     color: #f1f1f1;

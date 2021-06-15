@@ -20,3 +20,9 @@
     font-weight: 600 !important;
     line-height: 40px;
 }
+.fa-clone:hover {
+    color: var(--color-cinco);
+}
+.fa-clone:active {
+    color: var(--color-uno);
+}
