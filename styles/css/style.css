@@ -1,55 +1,51 @@
-/*
-    ESTILOS GENERALES PARA TODO
-*/
+/* ESTILOS GENERALES PARA TODO */
 /* FUENTES EXTERNAS */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Patua+One&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700&display=swap');
 @import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
-
 /* FUENTES LOCALES */
 @import url('fuentes.css');
-
-
-/* 
-ESTILOS IMPORTABLES
- --------------------------------------*/
- .row,.col{margin: 0; padding:0;}
- html{
-     font-size: 16px;
-     font-family: 'Open Sans Condensed', sans-serif;
-     scroll-behavior: smooth;
- }
- :root {
- --fuente-uno: 'Open Sans', sans-serif;
- --fuente-dos: 'Open Sans Condensed', sans-serif;
- --fuente-tres: 'OperatorMono';
- --fuente-cuatro: 'Alex Brush', cursive;
- --color-uno: #f6921e;
- --color-dos:#262626;
- --color-tres:#24a9df;
- --color-cuatro:#8bc53f;
- --color-cinco:#ed4036;
- --color-seis: #c18de2;
- --color-siete: #c3c1cf;
- --color-ocho: #a1b0a0;
- --color-nueve: #5ba8db;
- --color-dark-uno: #2a2d3e;
- --color-dark-dos: #002451;
- --color-dark-tres:#3a0000;
- }
- .fuenteUno {
+/* ESTILOS IMPORTABLES --------------------------------------*/
+.row,.col{
+   margin: 0;
+    padding:0;
+}
+html{
+    font-size: 16px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    scroll-behavior: smooth;
+}
+:root {
+    --fuente-uno: 'Open Sans', sans-serif;
+    --fuente-dos: 'Open Sans Condensed', sans-serif;
+    --fuente-tres: 'OperatorMono';
+    --fuente-cuatro: 'Alex Brush', cursive;
+    --color-uno: #f6921e;
+    --color-dos:#262626;
+    --color-tres:#24a9df;
+    --color-cuatro:#8bc53f;
+    --color-cinco:#ed4036;
+    --color-seis: #c18de2;
+    --color-siete: #c3c1cf;
+    --color-ocho: #a1b0a0;
+    --color-nueve: #5ba8db;
+    --color-dark-uno: #2a2d3e;
+    --color-dark-dos: #002451;
+    --color-dark-tres:#3a0000;
+}
+.fuenteUno {
     font-family: var(--fuente-uno);
 }
- .fuenteDos {
-     font-family: var(--fuente-dos);
- }
- .fuenteTres {
-     font-family: var(--fuente-tres);
- }
- .fondoNegro {
+.fuenteDos {
+    font-family: var(--fuente-dos);
+}
+.fuenteTres {
+    font-family: var(--fuente-tres);
+}
+.fondoNegro {
     background: -webkit-gradient(linear, 100% 81%, 20% 0%, from(#1c1c1c), to(#3d3d3d));
- }
+}
 .sombraUno {
     box-shadow: 1px 39px 39px #000000;
 }
@@ -59,38 +55,47 @@ ESTILOS IMPORTABLES
 .sombra-texto {
     text-shadow: 5px 10px 5px #000000;
 }
- .colorNegro {
-   background: black;
+.colorNegro {
+    background: black;
 }
 .t1 {
-    color: var(--color-uno) /* NARANJA */
+    color: var(--color-uno) 
+   /* NARANJA */
 }
 .t2{
-  color: var(--color-dos) /* NEGRO */
+    color: var(--color-dos) 
+   /* NEGRO */
 }
 .t3{
-  color: var(--color-tres) /* AZUL CLARO */
+    color: var(--color-tres) 
+   /* AZUL CLARO */
 }
 .t4{
-  color: var(--color-cuatro) /* VERDE CLARO */
+    color: var(--color-cuatro) 
+   /* VERDE CLARO */
 }
 .t5{
-  color: var(--color-cinco) /* ROJO */
+    color: var(--color-cinco) 
+   /* ROJO */
 }
 .t6{
-  color: var(--color-seis) /* VIOLETA */
+    color: var(--color-seis) 
+   /* VIOLETA */
 }
 .t7{
-  color: yellow;
+    color: yellow;
 }
 .t8{
-  color: var(--color-siete); /* GRIS */
+    color: var(--color-siete);
+   /* GRIS */
 }
 .t9{
-  color: var(--color-ocho); /* GRIS VERDOSO */
+    color: var(--color-ocho);
+   /* GRIS VERDOSO */
 }
 .t10{
-  color: var(--color-nueve); /* AZUL CLARO OTRO TONO */
+    color: var(--color-nueve);
+   /* AZUL CLARO OTRO TONO */
 }
 .w-320{
     width: 320px;
@@ -118,69 +123,62 @@ a:hover {
     color: #f6921e;
     text-decoration: none !important;
 }
-
- .espacio{
-     height: 50px;
- }
- .espaciado{
-     height: 150px;
- }
- .tituloUno{
-   font-family: var(--fuente-uno);
- }
- .tituloDos{
-   font-family: var(--fuente-dos) !important;
- }
- .tituloTres{
-   font-family: var(--fuente-tres);
- }
- .tituloCuatro {
-   font-family: var(--fuente-cuatro);
- }
- .titleBig{
-     font-size: 146px;
- }
- .fw-3 {
-     font-weight: 300 !important;
- }
- .fw-6{
-   font-weight: 600 !important;
- }
- .fw-3{@media only screen and (max-width:414px) and (min-width:320px){ }
-   font-weight: 300 !important;
- }
- .fs-17 {
+.espacio{
+    height: 50px;
+}
+.espaciado{
+    height: 150px;
+}
+.tituloUno{
+    font-family: var(--fuente-uno);
+}
+.tituloDos{
+    font-family: var(--fuente-dos) !important;
+}
+.tituloTres{
+    font-family: var(--fuente-tres);
+}
+.tituloCuatro {
+    font-family: var(--fuente-cuatro);
+}
+.titleBig{
+    font-size: 146px;
+}
+.fw-3 {
+    font-weight: 300 !important;
+}
+.fw-6{
+    font-weight: 600 !important;
+}
+.fw-3{
+   @media only screen and (max-width:414px) and (min-width:320px){
+   }
+    font-weight: 300 !important;
+}
+.fs-17 {
     font-size: 17px !important;
- }
- .fs-18 {
-   font-size: 18px !important;
- }
- .fs-25{
+}
+.fs-18 {
+    font-size: 18px !important;
+}
+.fs-25{
     font-size: 25px !important;
- }
- .fs-40{
-   font-size: 40px !important;
- }
- .lh-18{
-     line-height: 18px !important;
- }
- .text-shadow {
-   text-shadow: black 0.1em 0.1em 0.2em;
- }
-/* 
-    ESTILOS IMPORTABLES
-*/
-
-/* 
-    ESTILOS CAROUSEL FRASES
-*/
- .retire-dots .owl-dots {
+}
+.fs-40{
+    font-size: 40px !important;
+}
+.lh-18{
+    line-height: 18px !important;
+}
+.text-shadow {
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+/* ESTILOS IMPORTABLES */
+/* ESTILOS CAROUSEL FRASES */
+.retire-dots .owl-dots {
     display: none !important;
- }
-
-/* 
-    ESTILOS MENU CATEGORIAS
-*/
+}
+/* ESTILOS MENU CATEGORIAS */
 .categorias {
     font-size: 3rem;
     font-family: var(--fuente-dos);
@@ -206,14 +204,12 @@ a:hover {
 .drops:active {
     filter: none;
 }
-
 .fuenteTitulo {
     font-family: 'Patua One', cursive;
 }
 .tamanoUno {
     font-size: 27px;
 }
-
 .inputUno {
     border-top: 0;
     border-right: 0;
@@ -233,26 +229,23 @@ a:hover {
     font-family: var(--fuente-dos);
 }
 .copiado:active {
-    color:#fff
+    color:#fff 
 }
 @media (max-width: 992px) {
     .titulo-vertical{
         transform: rotate(0deg);
-    }
+   }
 }
-
 @media (max-width: 601px) {
     .grandes {
         display: none;
-    }
+   }
 }
-
 @media (min-width: 600px) {
     .mobile {
         display: none;
-    }
+   }
 }
-
 .ancho {
     width: 415px;
     background-color: black;
@@ -262,7 +255,6 @@ a:hover {
     position: relative;
     top: 30px;
 }
-
 #checbox {
     order:2;
 }
