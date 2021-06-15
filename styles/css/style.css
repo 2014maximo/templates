@@ -110,7 +110,7 @@ a {
 }
 a:hover {
     color: #f6921e;
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
  .espacio{
