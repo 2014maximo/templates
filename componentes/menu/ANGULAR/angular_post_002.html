@@ -17,7 +17,9 @@
             <div class="row">
                 <div class="col-1"></div>
                 <div class="col-4">
-                    <h2 class="tituloDos text-light">TRUCOS PA' DESARROLLO</h2>
+                    <a href="https://2014maximo.github.io/templates/">
+                        <h2 class="tituloDos text-light">TRUCOS PA' DESARROLLO</h2>
+                    </a>
                 </div>
                 <div class="col-6">
                     <form class="formUno">
@@ -36,7 +38,9 @@
               </div>
             </div>
             <nav class="navbar navbar-dark bg-dark text-light">
-                <h2 class="fuenteDos">TRUCOS PA' DESARROLLO</h2>
+                <a href="https://2014maximo.github.io/templates/">
+                    <h2 class="tituloDos text-light">TRUCOS PA' DESARROLLO</h2>
+                </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -69,6 +73,25 @@
                 </p>
             </div>
         </div>
+        <div class="row mt-5">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <div class="row">
+                    <div class="col-md-2">
+                        <h2 class="titleBig text-light">1</h2>
+                    </div>
+                    <div class="col-md-10">
+                        <h3 class="subTituloPost">¿Qué se necesita?</h3>
+                        <p class="text-light tituloUno fw-3 mt-2">
+                            La parte realmente importante en pruebas unitarias son las evaluaciones a los métodos, teniendo en cuenta que se necesita simular todos los requisitos y dependencias que necesita ese método, función, clase, etc, para entregar el resultado del proceso.<br>
+                            Anterior a esto debemos contar con estos elementos:
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
         <div class="row">
             <div class="col-md-8">
                 <div class="img-fluid">
@@ -76,45 +99,36 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="row">
-                    <div class="col-md-3">
-                        <h2 class="titleBig text-light">1</h2>
-                    </div>
-                    <div class="col-md-9">
-                        <p id="clip-npm-karma" class="d-none">
-                            npm i karma-jasmine
-                        </p>
-                        <p class="text-light tituloUno fw-3 mt-5">
-                            Los proyectos de Angular por defecto ya traen la dependencia de Karma Jasmine para las pruebas unitarias. De requerirse se puede actualizar la versión de Karma que esta actualmente en la versión 4 con: <br>
-                            <strong><span class="text-danger font-italic mr-2">npm i karma-jasmine</span></strong><i class="fa fa-clone cursor-p" aria-hidden="true" title="Copiar" onClick="copiarAlPortapapeles('clip-npm-karma')"></i>
-                        </p>
-                    </div>
-                </div>
+                <p id="clip-npm-karma" class="d-none">
+                    npm i karma-jasmine
+                </p>
+                <p class="text-light fs-25 fw-6 mb-0">Módulos de <span class="font-italic fw-3">"karma-jasmine"</span></p>
+                <p id="clip-npm-karma" class="d-none">
+                    npm i karma-jasmine
+                </p>
+                <p class="text-light tituloUno fw-3">
+                    Los proyectos de Angular por defecto ya traen la dependencia de Karma Jasmine para las pruebas unitarias. De requerirse se puede actualizar la versión de Karma que esta actualmenten la versión 4 con: <br>
+                    <strong><span class="text-danger font-italic mr-2">npm i karma-jasmine</span></strong><i class="fa fa-clone cursor-p" aria-hidden="true" title="Copiar" onClick="copiarAlPortapapeles('clip-npm-karma')"></i>
+                </p>
             </div>  
         </div>
-        <div class="row mt-5">
-            <div class="col-md-1"></div>
-            <div class="col-md-10">
-                <div class="row">
-                    <div class="col-md-2">
-                        <h2 class="titleBig text-light">2</h2>
-                    </div>
-                    <div class="col-md-10">
-                        <h3 class="subTituloPost">Comandos de ejecución de pruebas</h3>
-                        <p class="text-light tituloUno fw-3 mt-2">
-                            Estos comandos se ejecutan una vez tengamos generadas las pruebas en los archivos .spec
-                        </p>
-                        <p class="text-light fs-25 fw-6 mb-0">npm run test</p>
-                        <p class="text-light fuenteUno fw-3">Corre por defecto las pruebas</p>
-                        <p class="text-light fs-25 fw-6 mb-0">ng test</p>
-                        <p class="text-light fuenteUno fw-3">Corre por defecto las pruebas</p>
-                        <p class="text-light fs-25 fw-6 mb-0">ng test --no-watch --code-coverage</p>
-                        <p class="text-light fuenteUno fw-3">Este comando genera una carpeta de análisis en formato html</p>
-                    </div>
+        <div class="row">
+            <div class="col-md-4">
+                <p id="clip-npm-karma" class="d-none">
+                    npm i karma-jasmine
+                </p>
+                <p class="text-light fs-25 fw-6 mb-0">Archivos <span class="fw-3 font-italic">".spec"</span></p>
+                <p class="text-light tituloUno fw-3">
+                    Los archivos .spec son la mesa de trabajo para realizar las pruebas, y sobre ellos se realizan los diagnósticos de estadísticas generales de pruebas de todo el proyecto. Por estandar y fácil localización se crean en la misma ruta del componente que se va a probar.
+                </p>
+            </div>
+            <div class="col-md-8">
+                <div class="img-fluid sombraUno">
+                    <img src="../../../styles/assets/categorias/Angular/Pruebas unitarias/archivos spec.png" class="img-fluid">
                 </div>
             </div>
-            <div class="col-md-1"></div>
         </div>
+
 
         <div class="row mt-5">
             <div class="col-md-1"></div>
