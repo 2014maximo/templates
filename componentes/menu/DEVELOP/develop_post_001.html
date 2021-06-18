@@ -18,45 +18,10 @@
 
 <body class="fondoNegro">
 
-    <!-- 
-        HEADER 
-        ------------------------------------------------------------------------->
-    <div class="bg-dark header fixed-top text-primary pt-3 pb-3 grandes transparenciaUno">
-        <div class="row">
-            <div class="col-1"></div>
-            <div class="col-4">
-                <a href="https://2014maximo.github.io/templates/">
-                    <h2 class="tituloDos text-light">TRUCOS PA' DESARROLLO</h2>
-                </a>
-            </div>
-            <div class="col-6">
-                <form class="formUno">
-                    <input class="inputUno text-light fuente bg-transparent" type="search" placeholder="Buscar"
-                        aria-label="Search">
-                </form>
-            </div>
-            <div class="col-1"></div>
-        </div>
-    </div>
-    <div class="pos-f-t mobile fixed-top">
-        <div class="collapse" id="navbarToggleExternalContent">
-            <div class="bg-dark p-4">
-                <form class="formUno tituloDos">
-                    <input class="inputUno text-light bg-transparent" type="search" placeholder="Buscar"
-                        aria-label="Search">
-                </form>
-            </div>
-        </div>
-        <nav class="navbar navbar-dark bg-dark text-light">
-            <h2 class="fuenteDos">TRUCOS PA' DESARROLLO</h2>
-            <button class="navbar-toggler" type="button" data-toggle="collapse"
-                data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
-                aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-        </nav>
-    </div>
-    <!-- FIN -HEADER ------------------------------------------------------------------------->
+    <!--  HEADER ------------------------------------------------------------>
+        <sell-head></sell-head>
+    <!-- FIN -HEADER -------------------------------------------------------->
+
 
     <!-- IMAGEN TITULAR ------------------------------------>
     <div class="headerPost sombraUno"
@@ -65,6 +30,7 @@
     <div class="espacio"></div>
     <h2 class="tituloPost p-2 text-center">SUPER RECURSOS DE INTERNET</h2>
     <!-- FIN IMAGEN TITULAR ------------------------------------>
+
 
     <!-- CONTENIDO ------------------------------------------------------------------------->
     <div class="espaciado"></div>
@@ -381,6 +347,15 @@
                                 Tutorial para conectar nuestro código PHP con base de datos.
                             </p>
                         </div>
+                        <div class="p-3 text-center col">
+                            <a href="https://developer.wordpress.org" target="_blank">
+                                <img src="../../../styles/assets/icon/worpress-org.png" width="auto" height="45" class="drops">
+                            </a>
+                            <p class="text-light fs-18 fuenteDos mt-3 lh-18">
+                                Referencias de código, estandares de código, editor de código, aplicaciones comunes, temas, plugins, entre otras cosas.
+                            </p>
+                            <a href="https://wordpress.org/download/" target="_blank" class="text-primary fs-18 fuenteDos mt-3 lh-18">Descargar Wordpress</a>
+                        </div>
                     </div>
 
                 </div>
@@ -686,6 +661,17 @@
                             </p>
                         </div>
                     </div>
+                    <div class="d-flex justify-content-between row">
+                        <div class="p-3 text-center col">
+                            <a href="https://www.tomrichmond.com/art/illustration/" target="_blank">
+                                <img src="../../../styles/assets/icon/richmond-front.png" width="auto" height="200" class="drops">
+                            </a>
+                            <p class="fs-18 text-light fuenteDos mt-3 lh-18">
+                                Caricaturas artísticas de famosos tipo comicas. Del creador de la famosa revista MAD.
+                            </p>
+                        </div>
+
+                    </div>
                 </div>
             </div>
 
@@ -935,14 +921,8 @@
         <div class="col-md-1"></div>
     </div>
 
-
-
-
-
-
-
-
     <script src="../../../styles/js/scripts.js"></script>
+    <script src="../../../styles/js/web-components/wc-header.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>

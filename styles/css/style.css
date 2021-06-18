@@ -34,6 +34,9 @@ html{
     --color-dark-dos: #002451;
     --color-dark-tres:#3a0000;
 }
+.w-100{
+    width: 100%;
+}
 .fuenteUno {
     font-family: var(--fuente-uno);
 }
