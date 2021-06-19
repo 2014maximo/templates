@@ -92,8 +92,9 @@
             </div>
             <div class="col-md-1"></div>
         </div>
-        <div class="row">
-            <div class="col-md-8">
+        <div class="row mt-5">
+            <div class="col-md-8 text-center">
+                <p class="text-light fs-25 fw-6 mb-0">Las librerías que hacen las pruebas</p>
                 <div class="img-fluid">
                     <img src="../../../styles/assets/code/karma_dependencies.png" class="img-fluid">
                 </div>
@@ -102,7 +103,7 @@
                 <p id="clip-npm-karma" class="d-none">
                     npm i karma-jasmine
                 </p>
-                <p class="text-light fs-25 fw-6 mb-0">Módulos de <span class="font-italic fw-3">"karma-jasmine"</span></p>
+                <p class="text-light fs-25 fw-6 mb-0"><span class="font-italic fw-3">"karma-jasmine"</span></p>
                 <p id="clip-npm-karma" class="d-none">
                     npm i karma-jasmine
                 </p>
@@ -112,28 +113,100 @@
                 </p>
             </div>  
         </div>
-        <div class="row">
-            <div class="col-md-8">
-                <p id="clip-npm-karma" class="d-none">
-                    npm i karma-jasmine
-                </p>
+        <div class="row mt-5">
+            <div class="col-md-3">
                 <p class="text-light fs-25 fw-6 mb-0">Archivos <span class="fw-3 font-italic">".spec"</span></p>
                 <p class="text-light tituloUno fw-3">
                     Los archivos .spec son la mesa de trabajo para realizar las pruebas, y sobre ellos se realizan los diagnósticos de estadísticas generales de pruebas de todo el proyecto. Por estandar y fácil localización se crean en la misma ruta del componente que se va a probar.
                 </p>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-9">
                 <div class="img-fluid sombraUno">
                     <img src="../../../styles/assets/categorias/Angular/Pruebas unitarias/archivos spec.png" class="img-fluid">
                 </div>
             </div>
         </div>
+        <div class="espaciado"></div>
+        <div class="row mt-5">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <div class="row">
+                    <div class="col-md-2">
+                        <h2 class="titleBig text-light">2</h2>
+                    </div>
+                    <div class="col-md-10">
+                        <h3 class="subTituloPost">¿Qué contienen las pruebas?</h3>
+                        <p class="text-light tituloUno fw-3 mt-2">
+                            En los archivos .spec debe ir la extructura de funciones que empieza por la función "describe", que contiene a todas las demás. De esta manera:
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
 
+        <div class="row mt-3">
+            <div class="col-md-8">
+                <div class="img-fluid sombraUno">
+                    <img src="../../../styles/assets/categorias/Angular/Pruebas unitarias/contenedor-describe.png" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <p class="text-light fs-25 fw-6 mb-0">Función <span class="fw-3 font-italic">"describe()"</span></p>
+                <p class="text-light tituloUno fw-3">
+                    La función "describe()", es la que contiene todo el area de pruebas, recibe 2 parámetros que serían la descripción que es una cadena de texto y recibe otra función que es la que contiene todo el área de pruebas.
+                </p>
+
+                <p class="text-light fs-25 fw-6 mb-0 mt-3">Función <span class="fw-3 font-italic">"beforeEach()"</span></p>
+                <p class="text-light tituloUno fw-3">
+                    Esta función ejecuta todo lo que tiene dentro de si, antes de cada una de las pruebas.
+                </p>
+                <p class="text-light fs-25 fw-6 mb-0 mt-3">Función <span class="fw-3 font-italic">"beforeAll()"</span></p>
+                <p class="text-light tituloUno fw-3">
+                    Esta función ejecuta todo lo que tiene dentro de si, antes de todas las pruebas.
+                </p>
+
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-12">
+                <p class="text-light fs-25 fw-6 mb-0">Función <span class="fw-3 font-italic">"afteEach()"</span></p>
+                <p class="text-light tituloUno fw-3">
+                    Esta función ejecuta todo lo que tiene dentro de si, despues de cada una de las pruebas.
+                </p>
+                <p class="text-light fs-25 fw-6 mb-0 mt-3">Función <span class="fw-3 font-italic">"afteAll()"</span></p>
+                <p class="text-light tituloUno fw-3">
+                    Esta función ejecuta todo lo que tiene dentro de si, despues de todas las pruebas.
+                </p>
+            </div>
+        </div>
 
         <div class="row mt-5">
             <div class="col-md-1"></div>
             <div class="col-md-10">
                 <div class="row">
+                    <div class="col-md-2">
+                        <h2 class="titleBig text-light">3</h2>
+                    </div>
+                    <div class="col-md-10">
+                        <h3 class="subTituloPost">¿Como se prueba?</h3>
+                        <p class="text-light tituloUno fw-3 mt-2">
+                            Entrando en materia estos son algunos de los ejemplos aplicados a las pruebas en general:
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <div class="row">
+                    <div class="col-md-2">
+                        <h2 class="titleBig text-light">4</h2>
+                    </div>
                     <div class="col-md-10">
                         <h3 class="subTituloPost">Comandos de ejecución de pruebas</h3>
                         <p class="text-light tituloUno fw-3 mt-2">
@@ -146,13 +219,11 @@
                         <p class="text-light fs-25 fw-6 mb-0">ng test --no-watch --code-coverage</p>
                         <p class="text-light fuenteUno fw-3">Este comando genera una carpeta de análisis en formato html</p>
                     </div>
-                    <div class="col-md-2">
-                        <h2 class="titleBig text-light">3</h2>
-                    </div>
                 </div>
             </div>
             <div class="col-md-1"></div>
         </div>
+
         
     </div>
     <div class="col-md-1"></div>
