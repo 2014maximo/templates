@@ -22,58 +22,20 @@
 
 <body class="mt-5 fondoNegro">
 
-<!-- HEADER ------------------------------------------------------------------------->
+<!-- HEADER ----------->
   <sell-head-home></sell-head-home>
-<!-- FIN -HEADER ------------------------------------------------------------------------->
-    
-
-<!-- CONTENIDO ------------------------------------------------------------------------->
+<!-- FIN -HEADER ------>
 
 
-<!-- SLIDER ------------------------------------------------------------------------->
-<div class="row pt-5">
-  <div class="col-md-2"></div>
-  <div class="col-md-8">
-    <div id="demo" class="carousel slide sombraUno" data-ride="carousel">
-
-        <!-- Indicators -->
-        <ul class="carousel-indicators">
-          <li data-target="#demo" data-slide-to="0" class="active"></li>
-          <li data-target="#demo" data-slide-to="1"></li>
-          <li data-target="#demo" data-slide-to="2"></li>
-          <li data-target="#demo" data-slide-to="3"></li>
-        </ul>
-        
-        <!-- The slideshow -->
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="styles/assets/slider/slide_1_atributos-css.jpg" alt="Los Angeles" class="img-fluid">
-          </div>
-          <div class="carousel-item">
-            <img src="styles/assets/slider/slide_2_instalacion-angular2.jpg" alt="Chicago" class="img-fluid">
-          </div>
-          <div class="carousel-item">
-            <img src="styles/assets/slider/slide_3_tipo_de_elementos_partes.jpg" alt="Chicago" class="img-fluid">
-          </div>
-        </div>
-        
-        <!-- Left and right controls -->
-        <a class="carousel-control-prev" href="#demo" data-slide="prev">
-          <span class="carousel-control-prev-icon"></span>
-        </a>
-        <a class="carousel-control-next" href="#demo" data-slide="next">
-          <span class="carousel-control-next-icon"></span>
-        </a>
-    </div>
-  </div>
-  <div class="col-md-2"></div>
-</div>
-
-<!-- FIN SLIDER ------------------------------------------------------------------------->
+<!-- SLIDER ----------->
+  <sell-slider-home></sell-slider-home>
+<!-- FIN SLIDER ------->
 
 <div class="espaciado"></div>
 
-<!-- SLIDER FRASES ------------------------------------------------------------------------->
+
+<!-- SLIDER FRASES ---->
+
 <div class="row">
   <div class="col-md-1"></div>
   <div class="col-md-11">
@@ -183,210 +145,39 @@
   </div>
   <div class="col-md-1"></div>
 </div>
-<!-- FIN SLIDERS FRASES ------------------------------------------------------------------------>
-
-
+<!-- FIN SLIDERS FRASES -------------->
 <div class="espaciado"></div>
 
 
-<!-- MENU CATEGORIAS ------------------------------------------------------------------------>
-<div class="row">
-  <div class="col-md-1"></div>
-  <div class="col-md-10">
-
-    <div class="row">
-      <div class="col-md-8">
-        <div class="menu-categorias p-5">
-
-          <div class="d-flex justify-content-around mb-5 align-items-center">
-            <div class="linkCategoria" onClick="menuUno('angular', '80%')">
-              <img src="styles/assets/categorias/angular.png" alt="" width="auto" height="80" class="drop">
-            </div>
-            <div class="linkCategoria" onClick="menuUno('php', '80%')">
-              <img src="styles/assets/categorias/php.png" alt="" width="auto" height="80" class="drop">
-            </div>
-            <div class="linkCategoria" onClick="menuUno('html', '80%')">
-              <img src="styles/assets/categorias/html.png" alt="" width="auto" height="80" class="drop">
-            </div>
-            <div class="linkCategoria" onClick="menuUno('css', '80%')">
-              <img src="styles/assets/categorias/css.png" alt="" width="auto" height="80" class="drop">
-            </div>
-            <div class="linkCategoria" onClick="menuUno('javascript', '80%')">
-              <img src="styles/assets/categorias/javascript.png" alt="" width="auto" height="80" class="drop">
-            </div>
-          </div>
-
-          <div class="d-flex justify-content-around mb-5 align-items-center">
-            <div class="linkCategoria" onClick="menuUno('wordpress', '80%')">
-              <img src="styles/assets/categorias/wordpress2.png" alt="" width="auto" height="80" class="drop">
-            </div>
-            <div class="linkCategoria" onClick="menuUno('linuxmint', '80%')">
-              <img src="styles/assets/categorias/linuxmint.png" alt="" width="auto" height="80" class="drop">
-            </div>
-            <div class="linkCategoria" onClick="menuUno('debian', '80%')">
-              <img src="styles/assets/categorias/debian.png" alt="" width="auto" height="80" class="drop">
-            </div>
-            <div class="linkCategoria" onClick="menuUno('java', '80%')">
-              <img src="styles/assets/categorias/logo-java.png" alt="" width="auto" height="120" class="drop">
-            </div>
-          </div>
-
-          <div class="d-flex justify-content-around mb-5 align-items-center">
-            <div class="linkCategoria" onClick="menuUno('visual_studio_code', '80%')">
-              <img src="styles/assets/categorias/visual_studio_code_text_white.png" alt="" width="auto" height="100" class="drop">
-            </div>
-            <div class="linkCategoria" onClick="menuUno('flutter', '80%')">
-              <img src="styles/assets/categorias/flutter_text_white.png" alt="" width="auto" height="100" class="drop">
-            </div>
-            <div class="linkCategoria" onClick="menuUno('dart', '80%')">
-              <img src="styles/assets/categorias/dart_text_white.png" alt="" width="auto" height="40" class="drop">
-            </div>
-            <div class="linkCategoria" onClick="menuUno('develop', '80%')">
-              <img src="styles/assets/categorias/devlop.png" alt="" width="auto" height="40" class="drop">
-            </div>
-          </div>
-
-          <div class="d-flex justify-content-around mb-5 align-items-center">
-            <div class="linkCategoria" onClick="menuUno('git', '80%')">
-              <img src="styles/assets/categorias/git-light.png" alt="" width="auto" height="40" class="drop">
-            </div>
-          </div>
-
-        </div>
-      </div>
-      <div class="col-md-4">
-        <h2 class="text-light categorias">CATEGORIAS</h2>
-      </div>
-    </div>
-
-  </div>
-  <div class="col-md-1"></div>
-</div>
-<!-- FIN MENU CATEGORIAS------------------------------------------------------------------------>
+<!-- MENU CATEGORIAS ----------------->
+  <sell-menu></sell-menu>
+<!-- FIN MENU CATEGORIAS-------------->
 
 
-<!-- CONTENIDO DE CADA CATEGORIA------------------------------------------------------------------------>
+<!-- CONTENIDO DE CADA CATEGORIA------>
 
 <!-- Angular--------->
 <div id="angular" class="sidenav">
-  <div class="text-right">
-    <a href="javascript:void(0)" class="closebtn" onclick="cierreMenu('angular')">&times;</a>
-  </div>
-  <div class="row">
-    <div class="col-md-1"></div>
-    <div class="col-md-10">
-      <div class="text-right">
-        <img src="styles/assets/categorias/angular.png" alt="" width="auto" height="80" class="drop">
-      </div>
-      <ul class="text-light">
-        <li>
-          <a href="componentes/menu/ANGULAR/angular_post_001.html">1. Instalación de angular y recomendaciones</a>
-        </li>
-        <li>
-          <a href="componentes/menu/ANGULAR/angular_post_002.html">2. Pruebas unitarias</a>
-        </li>
-        <li>
-          <a href="componentes/menu/ANGULAR/angular_post_003.html">3. Interceptor en Angular</a>
-        </li>
-        <li>
-          <a href="componentes/menu/ANGULAR/angular_post_004.html">4. Elementos de Angular, descripción y ejemplos</a>
-        </li>
-
-        <li></li>
-      </ul>
-    </div>
-    <div class="col-md-1"></div>
-  </div>
+  <sell-menu-cat-angular></sell-menu-cat-angular>
 </div>
 
 <!-- Develop--------->
 <div id="develop" class="sidenav">
-  <div class="text-right">
-    <a href="javascript:void(0)" class="closebtn" onclick="cierreMenu('develop')">&times;</a>
-  </div>
-  <div class="row">
-    <div class="col-md-1"></div>
-    <div class="col-md-10">
-      <div class="text-right">
-        <img src="styles/assets/categorias/devlop.png" alt="" width="auto" height="40" class="drop">
-      </div>
-      <ul class="text-light">
-        <li>
-          <a href="componentes/menu/DEVELOP/develop_post_001.html">1. Super recursos de internet</a>
-        </li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-    </div>
-    <div class="col-md-1"></div>
-  </div>
+  <sell-menu-cat-develop></sell-menu-cat-develop>
 </div>
 
 <!-- Git--------->
 <div id="git" class="sidenav">
-  <div class="text-right">
-    <a href="javascript:void(0)" class="closebtn" onclick="cierreMenu('git')">&times;</a>
-  </div>
-  <div class="row">
-    <div class="col-md-1"></div>
-    <div class="col-md-10">
-      <div class="text-right">
-        <img src="styles/assets/categorias/git-light.png" alt="" width="auto" height="40" class="drop">
-      </div>
-      <ul class="text-light">
-        <li>
-          <a href="componentes/menu/GIT/git_post_001.html">1. Descripción básica de comandos usados en Git.</a>
-        </li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-    </div>
-    <div class="col-md-1"></div>
-  </div>
+  <sell-menu-cat-git></sell-menu-cat-git>
 </div>
 
 <!-- Visual studio code--------->
 <div id="visual_studio_code" class="sidenav">
-  <div class="text-right">
-    <a href="javascript:void(0)" class="closebtn" onclick="cierreMenu('visual_studio_code')">&times;</a>
-  </div>
-  <div class="row">
-    <div class="col-md-1"></div>
-    <div class="col-md-10">
-      <div class="text-right">
-        <img src="styles/assets/categorias/visual_studio_code_text_white.png" alt="" width="auto" height="40" class="drop">
-      </div>
-      <ul class="text-light">
-        <li>
-          <a href="componentes/menu/VISUAL STUDIO CODE/visual_studio_code_post_001.html">1. Snipets en Visual Studio Code.</a>
-        </li>
-        <li>
-          <a href="componentes/menu/VISUAL STUDIO CODE/visual_studio_code_post_002.html">2. Teclas de acceso rápido en Visual Studio Code.</a>
-        </li>
-      </ul>
-    </div>
-    <div class="col-md-1"></div>
-  </div>
+  <sell-menu-cat-visual-studio-code></sell-menu-cat-visual-studio-code>
 </div>
-
-
-
-
-
-<!-- FIN CONTENIDO DE CADA CATEGORIA------------------------------------------------------------------------>
-
-
-
-
-
-
-
+<!-- FIN CONTENIDO DE CADA CATEGORIA-------->
     
-<!-- FIN CONTENIDO ------------------------------------------------------------------------>
+<!-- FIN CONTENIDO ------------------------->
 
 <script>
     jQuery('.owl-carousel').owlCarousel({
@@ -418,7 +209,12 @@ $('.stop').on('click',function(){
 </script>
     <script src="styles/js/scripts.js"></script>
     <script src="styles/js/web-components/wc-header-home.js"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="styles/js/web-components/wc-slider-home.js"></script>
+    <script src="styles/js/web-components/wc-menu-categorias.js"></script>
+    <script src="styles/js/web-components/wc-menu-cat-angular.js"></script>
+    <script src="styles/js/web-components/wc-menu-cat-develop.js"></script>
+    <script src="styles/js/web-components/wc-menu-cat-git.js"></script>
+    <script src="styles/js/web-components/wc-menu-cat-visual_studio_code.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
