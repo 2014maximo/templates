@@ -16,7 +16,7 @@ class SellMenuCatDevelop extends HTMLElement {
         </div>
         <ul class="text-light">
           <li>
-            <a href="componentes/menu/DEVELOP/develop_post_001.html">1. Super recursos de internet</a>
+            <a href="componentes/DEVELOP/develop_post_001.html">1. Super recursos de internet</a>
           </li>
           <li></li>
           <li></li>

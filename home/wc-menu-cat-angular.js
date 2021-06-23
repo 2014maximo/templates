@@ -16,16 +16,16 @@ class SellMenuCatAngular extends HTMLElement {
           </div>
           <ul class="text-light">
             <li>
-              <a href="componentes/menu/ANGULAR/angular_post_001.html">1. Instalación de angular y recomendaciones</a>
+              <a href="componentes/ANGULAR/angular_post_001.html">1. Instalación de angular y recomendaciones</a>
             </li>
             <li>
-              <a href="componentes/menu/ANGULAR/angular_post_002.html">2. Pruebas unitarias</a>
+              <a href="componentes/ANGULAR/angular_post_002.html">2. Pruebas unitarias</a>
             </li>
             <li>
-              <a href="componentes/menu/ANGULAR/angular_post_003.html">3. Interceptor en Angular</a>
+              <a href="componentes/ANGULAR/angular_post_003.html">3. Interceptor en Angular</a>
             </li>
             <li>
-              <a href="componentes/menu/ANGULAR/angular_post_004.html">4. Elementos de Angular, descripción y ejemplos</a>
+              <a href="componentes/ANGULAR/angular_post_004.html">4. Elementos de Angular, descripción y ejemplos</a>
             </li>
             <li></li>
           </ul>

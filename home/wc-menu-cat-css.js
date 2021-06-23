@@ -16,7 +16,7 @@ class SellMenuCatCSS extends HTMLElement {
                     </div>
                     <ul class="text-light">
                         <li>
-                            <a href="componentes/menu/CSS/css_post_001.html">1. Atributos CSS</a>
+                            <a href="componentes/CSS/css_post_001.html">1. Atributos CSS</a>
                         </li>
                     </ul>
                 </div>

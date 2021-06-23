@@ -16,7 +16,7 @@ class SellMenuCatGit extends HTMLElement {
                     </div>
                     <ul class="text-light">
                         <li>
-                            <a href="componentes/menu/GIT/git_post_001.html">1. Descripción básica de comandos usados en Git.</a>
+                            <a href="componentes/GIT/git_post_001.html">1. Descripción básica de comandos usados en Git.</a>
                         </li>
                         <li></li>
                         <li></li>

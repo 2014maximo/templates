@@ -16,10 +16,10 @@ class SellMenuCatVisualStudioCode extends HTMLElement {
                     </div>
                     <ul class="text-light">
                         <li>
-                            <a href="componentes/menu/VISUAL STUDIO CODE/visual_studio_code_post_001.html">1. Snipets en Visual Studio Code.</a>
+                            <a href="componentes/VISUAL STUDIO CODE/visual_studio_code_post_001.html">1. Snipets en Visual Studio Code.</a>
                         </li>
                         <li>
-                            <a href="componentes/menu/VISUAL STUDIO CODE/visual_studio_code_post_002.html">2. Teclas de acceso rápido en Visual Studio Code.</a>
+                            <a href="componentes/VISUAL STUDIO CODE/visual_studio_code_post_002.html">2. Teclas de acceso rápido en Visual Studio Code.</a>
                         </li>
                     </ul>
                 </div>
