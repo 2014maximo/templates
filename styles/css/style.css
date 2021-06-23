@@ -173,6 +173,9 @@ a:hover {
 .fs-40{
     font-size: 40px !important;
 }
+.fs-160 {
+    font-size: 160px;
+  }
 .lh-18{
     line-height: 18px !important;
 }
