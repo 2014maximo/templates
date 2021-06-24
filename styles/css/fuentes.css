@@ -1,6 +1,7 @@
 @font-face {
     font-family: 'Alex Brush';
     src: url('../fonts/AlexBrush-Regular.ttf');
+    font-weight: normal;
 }
 @font-face {
     font-family: 'OperatorMono';
