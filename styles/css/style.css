@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Patua+One&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 @import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 /* FUENTES LOCALES */
 @import url('fuentes.css');
@@ -21,6 +22,8 @@ html{
     --fuente-dos: 'Open Sans Condensed', sans-serif;
     --fuente-tres: 'OperatorMono';
     --fuente-cuatro: 'Alex Brush', cursive;
+    --fuente-cinco: 'Patua One', cursive;
+    --fuente-seis: 'Shadows Into Light', cursive;
     --color-uno: #f6921e;
     --color-dos:#262626;
     --color-tres:#24a9df;
@@ -48,6 +51,12 @@ html{
 }
 .fuenteCuatro {
     font-family: var(--fuente-cuatro);
+}
+.fuenteCinco {
+    font-family: var(--fuente-cinco);
+}
+.fuenteSeis {
+    font-family: var(--fuente-seis);
 }
 .fondoNegro {
     background: -webkit-gradient(linear, 100% 81%, 20% 0%, from(#1c1c1c), to(#3d3d3d));
@@ -289,11 +298,36 @@ a:hover {
     background: no-repeat 50%/50% 50%;
 }
 .l-menu{
-    height: 25px;
+    height: 45px;
+    white-space: pre;
+    background-color: #fff;
+    text-align: center;
+    border: 1.5px solid;
+    margin: 1px;
+    -moz-box-shadow:5px 5px 5px #000000;
+    -webkit-box-shadow:5px 5px 5px #000000;
+    box-shadow:5px 5px 5px #000000;
 }
 .l-menu a {
     text-decoration: none;
     color: #1c1c1c;
+    font-family: var(--fuente-seis);
+    font-size: 30px;
+}
+.post-z{
+    z-index: 1;
+}
+.rot-1 {
+    transform: rotate(3deg);
+    z-index: 3;
+}
+.rot-2 {
+    transform: rotate(-1deg);
+    z-index: 3;
+}
+.rot-3 {
+    transform: rotate(-3deg);
+    z-index: 3;
 }
 .custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26l2.974 2.99L8 2.193z'/%3e%3c/svg%3e");
