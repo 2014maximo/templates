@@ -25,12 +25,13 @@
   <sell-head-home></sell-head-home>
 <!-- FIN -HEADER ------>
 
+<div class="espacio"></div>
 
 <!-- SLIDER ----------->
   <sell-slider-home></sell-slider-home>
 <!-- FIN SLIDER ------->
 
-<div class="espaciado"></div>
+<div class="espacio"></div>
 
 
 <!-- SLIDER FRASES ---->
@@ -154,6 +155,11 @@
 
 <!-- CONTENIDO DE CADA CATEGORIA------>
 
+<!-- Android--------->
+<div id="android" class="sidenav">
+  <sell-android></sell-android>
+</div>
+
 <!-- Angular--------->
 <div id="angular" class="sidenav">
   <sell-menu-cat-angular></sell-menu-cat-angular>
@@ -169,11 +175,6 @@
   <sell-menu-cat-git></sell-menu-cat-git>
 </div>
 
-<!-- Visual studio code--------->
-<div id="visual_studio_code" class="sidenav">
-  <sell-menu-cat-visual-studio-code></sell-menu-cat-visual-studio-code>
-</div>
-
 <!-- CSS --------->
 <div id="css" class="sidenav">
   <sell-menu-cat-css></sell-menu-cat-css>
@@ -186,6 +187,7 @@
 <!-- FIN CONTENIDO DE CADA CATEGORIA-------->
     
 <!-- FIN CONTENIDO ------------------------->
+<div class="espaciado"></div>
 
 <script>
     jQuery('.owl-carousel').owlCarousel({
@@ -218,13 +220,13 @@ $('.stop').on('click',function(){
     <script src="styles/js/scripts.js"></script>
     <script src="home/wc-header-home.js"></script>
     <script src="home/wc-slider-home.js"></script>
-    <script src="home/wc-menu-categorias.js"></script>
-    <script src="home/wc-menu-cat-angular.js"></script>
-    <script src="home/wc-menu-cat-develop.js"></script>
-    <script src="home/wc-menu-cat-git.js"></script>
-    <script src="home/wc-menu-cat-visual_studio_code.js"></script>
-    <script src="home/wc-menu-cat-css.js"></script>
-    <script src="home/wc-menu-cat-html.js"></script>
+    <script src="home/CATEGORIA.js"></script>
+    <script src="home/android.js"></script>
+    <script src="home/angular.js"></script>
+    <script src="home/develop.js"></script>
+    <script src="home/git.js"></script>
+    <script src="home/css.js"></script>
+    <script src="home/html.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>

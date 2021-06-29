@@ -42,7 +42,7 @@ class SellSliderHome extends HTMLElement {
       </div>
       <div class="col-md-2"></div>
     </div>
-     `;
+    `;
     }
   }
 window.customElements.define('sell-slider-home', SellSliderHome)

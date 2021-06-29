@@ -39,6 +39,5 @@ a {
     transition: 0.3s;
 }
 a:hover {
-    color: #f6921e;
     text-decoration: none;
 }

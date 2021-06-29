@@ -26,3 +26,6 @@
 .fa-clone:active {
     color: var(--color-uno);
 }
+.bg-Angular a:hover {
+    color: black !important;
+}
