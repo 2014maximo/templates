@@ -13,7 +13,7 @@ class SellMenuCatLinux extends HTMLElement {
                 <div class="col-md-10">
                     <div class="text-right">
                     <a href="componentes/LINUX/categoria.html">
-                            <img src="styles/assets/categorias/linux.png" alt="" width="auto" height="60" class="drop">
+                            <img src="styles/assets/categorias/linux-white.png" alt="" width="auto" height="60" class="drop">
                         </a>
                     </div>
                     <div class="row m-3">
