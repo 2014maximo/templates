@@ -17,14 +17,16 @@ class SellMenuCatAngular extends HTMLElement {
             </a>
           </div>
           <div class="row m-3">
-            <div class="col bg-Angular pos-z l-menu"><a href="componentes/ANGULAR/angular_001.html">INSTALACIÓN DE ANGULAR...</a></div>
+            <div class="col bg-Angular pos-z l-menu"><a href="componentes/ANGULAR/angular_001.html">INSTALACIÓN</a></div>
             <div class="col bg-Angular rot-2 l-menu"><a href="componentes/ANGULAR/angular_002.html">PRUEBAS UNITARIAS</a></div>
             <div class="col bg-Angular rot-1 l-menu"><a href="componentes/ANGULAR/angular_003.html">INPUT Y OUTPUT</a></div>
             <div class="col bg-Angular rot-2 l-menu"><a href="componentes/ANGULAR/angular_004.html">ELEMENTOS DESCRIPCIÓN...</a></div>
-            <div class="col bg-Angular pos-z l-menu"><a href="componentes/ANGULAR/angular_003.html">CRUD CON UN MOCKDATA</a></div>
-            <div class="col bg-Angular pos-z l-menu"><a href="componentes/ANGULAR/angular_003.html">RXJS</a></div>
-            <div class="col bg-Angular pos-z l-menu"><a href="componentes/ANGULAR/angular_003.html">MICROFRONTENDS</a></div>
-            <div class="col bg-Angular pos-z l-menu"><a href="componentes/ANGULAR/angular_003.html">REDUX</a></div>
+            <div class="col bg-Angular pos-z l-menu"><a href="componentes/ANGULAR/angular_005.html">CRUD CON UN MOCKDATA</a></div>
+            <div class="col bg-Angular pos-z l-menu"><a href="componentes/ANGULAR/angular_006.html">RXJS</a></div>
+            <div class="col bg-Angular pos-z l-menu"><a href="componentes/ANGULAR/angular_007.html">MICROFRONTENDS</a></div>
+            <div class="col bg-Angular pos-z l-menu"><a href="componentes/ANGULAR/angular_008.html">MONTAR EN DOMINIO</a></div>
+            <div class="col bg-Angular rot-1 l-menu"><a href="componentes/ANGULAR/angular_009.html">REDUX</a></div>
+            <div class="col bg-Angular rot-2 l-menu"><a href="componentes/ANGULAR/angular_010.html">IONIC INSTALACIÓN</a></div>
           </div>
         </div>
         <div class="col-md-1"></div>
@@ -32,4 +34,4 @@ class SellMenuCatAngular extends HTMLElement {
     `;
     }
 }
-window.customElements.define('sell-menu-cat-angular', SellMenuCatAngular)
+window.customElements.define('sell-angular', SellMenuCatAngular)
