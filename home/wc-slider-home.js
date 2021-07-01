@@ -19,16 +19,19 @@ class SellSliderHome extends HTMLElement {
             
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="styles/assets/slider/slide_1_atributos-css.jpg" alt="Los Angeles" class="img-fluid">
+                <img src="styles/assets/slider/javascript.jpg" alt="Los Angeles" class="img-fluid">
               </div>
               <div class="carousel-item">
-                <img src="styles/assets/slider/slide_2_instalacion-angular2.jpg" alt="Chicago" class="img-fluid">
+                <img src="styles/assets/slider/angular.jpg" alt="Chicago" class="img-fluid">
               </div>
               <div class="carousel-item">
-                <img src="styles/assets/slider/slide_3_tipo_de_elementos_partes.jpg" alt="Chicago" class="img-fluid">
+                <img src="styles/assets/slider/linux.jpg" alt="Chicago" class="img-fluid">
               </div>
               <div class="carousel-item">
-                <img src="styles/assets/slider/slide_4_tipo_de_elementos_partes.jpg" alt="Chicago" class="img-fluid">
+                <img src="styles/assets/slider/yaseangular.jpg" alt="Chicago" class="img-fluid">
+              </div>
+              <div class="carousel-item">
+                <img src="styles/assets/slider/alverangularjs.jpg" alt="Chicago" class="img-fluid">
               </div>
             </div>
             
