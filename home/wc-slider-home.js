@@ -28,10 +28,16 @@ class SellSliderHome extends HTMLElement {
                 <img src="styles/assets/slider/linux.jpg" alt="Chicago" class="img-fluid">
               </div>
               <div class="carousel-item">
-                <img src="styles/assets/slider/yaseangular.jpg" alt="Chicago" class="img-fluid">
+                <img src="styles/assets/slider/flutter.jpg" alt="Chicago" class="img-fluid">
               </div>
               <div class="carousel-item">
-                <img src="styles/assets/slider/alverangularjs.jpg" alt="Chicago" class="img-fluid">
+                <img src="styles/assets/slider/dart.jpg" alt="Chicago" class="img-fluid">
+              </div>
+              <div class="carousel-item">
+                <img src="styles/assets/slider/git.jpg" alt="Chicago" class="img-fluid">
+              </div>
+              <div class="carousel-item">
+                <img src="styles/assets/slider/android.jpg" alt="Chicago" class="img-fluid">
               </div>
             </div>
             
