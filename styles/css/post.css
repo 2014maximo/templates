@@ -29,3 +29,52 @@
 .bg-Angular a:hover {
     color: black !important;
 }
+
+/*
+    IMAGEN HOVER
+*/
+.contener{
+    position: relative;
+    width: 642px;
+    height: 428px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    }
+    .imagen {
+    display: block;
+    width: 642px;
+    height: 428px;
+    }
+    .overlayer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.6);
+    overflow: hidden;
+    width: 100%;
+    height: 0%;
+    transition: .5s ease;
+    }
+    .textox {
+    font-family: 'Handlee', cursive;
+    color: #fff;
+    font-size: 2rem;
+    white-space: nowrap;
+    line-height: 3rem;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    width: 334px;
+    border-bottom: 2px solid #fff;
+    border-top: 2px solid #fff;
+    height: 3rem;
+    }
+    
+    .contener:hover .overlayer {
+    height: 100%;
+    }
