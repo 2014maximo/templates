@@ -59,7 +59,7 @@ class SellMenuCategorias extends HTMLElement {
     
               <div class="p-3 d-flex justify-content-around align-items-center text-center drop" style="background-image:url('./styles/assets/categorias/tablaMenu1.png');background-repeat:no-repeat;background-size:cover;">
                 <div class="linkCategoria" onClick="menuUno('sql', '80%')">
-                  <img src="styles/assets/categorias/sql.png" alt="" width="auto" height="70" class="drop">
+                  <img src="styles/assets/categorias/sql.png" alt="" width="auto" height="55" class="drop">
                 </div>
                 <div class="linkCategoria" onClick="menuUno('php', '80%')">
                   <img src="styles/assets/categorias/php.png" alt="" width="auto" height="80" class="drop">
