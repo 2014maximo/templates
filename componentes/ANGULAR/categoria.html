@@ -24,7 +24,7 @@
 
     <!-- IMAGEN TITULAR ------------------------------------>
     <div class="headerPost sombraUno"
-        style="background: url(../../../styles/assets/banner/super_recursos_de_internet.jpg); background-size: cover; background-position: center;background-repeat: no-repeat;">
+        style="background: url(../../styles/assets/banner/cat-angular.jpg); background-size: cover; background-position: center;background-repeat: no-repeat;">
     </div>
     <div class="espacio"></div>
     <h2 class="tituloPost p-2 text-center">CONTENIDO ANGULAR</h2>
@@ -32,14 +32,15 @@
 
 
     <!-- CONTENIDO ------------------------------------------------------------------------->
-    <div class="espaciado"></div>
+    <div class="espaciado d-none d-md-block"></div>
+    <div class="espacio d-md-none"></div>
 
     <div class="row">
         <div class="col-md-1"></div>
         <div class="col-md-10">
             <div class="sombraUno d-none d-md-block">
                 <div class="d-flex">
-                <div class="contener">
+                <div class="contener" onClick="abrirUrl('ang_001.html')">
                     <img alt="Avatar" class="imagen" src="../../styles/assets/banner/Instalaciona-angular.jpg">
                     <div class="overlayer">
                     <div class="textox">
@@ -47,11 +48,11 @@
                     </div>
                     </div>
                 </div>
-                <div class="contener">
-                    <img alt="Avatar" class="imagen" src="../../styles/assets/banner/Instalaciona-angular.jpg">
+                <div class="contener" onClick="abrirUrl('ang_002.html')">
+                    <img alt="Avatar" class="imagen" src="../../styles/assets/banner/Pruebas-unitarias-angular2.jpg">
                     <div class="overlayer">
                     <div class="textox">
-                    <p>Texto Hover</p>
+                    <p>Pruebas unitarias</p>
                     </div>
                     </div>
                 </div>
@@ -59,7 +60,7 @@
                     <img alt="Avatar" class="imagen" src="../../styles/assets/banner/Instalaciona-angular.jpg">
                     <div class="overlayer">
                     <div class="textox">
-                    <p>Texto Hover</p>
+                    <p>Input y Output</p>
                     </div>
                     </div>
                 </div>
@@ -67,7 +68,7 @@
                     <img alt="Avatar" class="imagen" src="../../styles/assets/banner/Instalaciona-angular.jpg">
                     <div class="overlayer">
                     <div class="textox">
-                    <p>Texto Hover</p>
+                    <p>Elementos, descripciones</p>
                     </div>
                     </div>
                 </div>
@@ -77,7 +78,7 @@
                     <img alt="Avatar" class="imagen" src="../../styles/assets/banner/Instalaciona-angular.jpg">
                     <div class="overlayer">
                     <div class="textox">
-                    <p>Instalación</p>
+                    <p>Crud con MockData</p>
                     </div>
                     </div>
                 </div>
@@ -85,7 +86,7 @@
                     <img alt="Avatar" class="imagen" src="../../styles/assets/banner/Instalaciona-angular.jpg">
                     <div class="overlayer">
                     <div class="textox">
-                    <p>Texto Hover</p>
+                    <p>RXJS</p>
                     </div>
                     </div>
                 </div>
@@ -93,7 +94,7 @@
                     <img alt="Avatar" class="imagen" src="../../styles/assets/banner/Instalaciona-angular.jpg">
                     <div class="overlayer">
                     <div class="textox">
-                    <p>Texto Hover</p>
+                    <p>Microfrontends</p>
                     </div>
                     </div>
                 </div>
@@ -101,7 +102,41 @@
                     <img alt="Avatar" class="imagen" src="../../styles/assets/banner/Instalaciona-angular.jpg">
                     <div class="overlayer">
                     <div class="textox">
-                    <p>Texto Hover</p>
+                    <p>Montar en dominio</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex">
+                <div class="contener">
+                    <img alt="Avatar" class="imagen" src="../../styles/assets/banner/Instalaciona-angular.jpg">
+                    <div class="overlayer">
+                    <div class="textox">
+                    <p>Redux</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="contener">
+                    <img alt="Avatar" class="imagen" src="../../styles/assets/banner/Instalaciona-angular.jpg">
+                    <div class="overlayer">
+                    <div class="textox">
+                    <p>Tiempo Real Socket y Rest</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="contener">
+                    <img alt="Avatar" class="imagen" src="../../styles/assets/banner/Instalaciona-angular.jpg">
+                    <div class="overlayer">
+                    <div class="textox">
+                    <p>Instalación de Ionic</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="contener">
+                    <img alt="Avatar" class="imagen" src="../../styles/assets/banner/Instalaciona-angular.jpg">
+                    <div class="overlayer">
+                    <div class="textox">
+                    <p>Montar en dominio</p>
                     </div>
                     </div>
                 </div>
@@ -110,7 +145,19 @@
 
             <div class="row d-md-none">
                 <div class="col-md-12">
-                    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam praesentium sed adipisci nam, soluta, voluptas minima sunt dignissimos similique, harum eum voluptates illum. Minima, aliquam distinctio qui aspernatur officia ex.</h2>
+                    <div class="row m-3">
+                        <div class="col bg-Angular pos-z l-menu"><a href="componentes/ANGULAR/ang_001.html">INSTALACIÓN</a></div>
+                        <div class="col bg-Angular rot-2 l-menu"><a href="componentes/ANGULAR/ang_002.html">PRUEBAS UNITARIAS</a></div>
+                        <div class="col bg-Angular rot-1 l-menu"><a href="componentes/ANGULAR/ang_003.html">INPUT Y OUTPUT</a></div>
+                        <div class="col bg-Angular rot-2 l-menu"><a href="componentes/ANGULAR/ang_004.html">ELEMENTOS DESCRIPCIÓN...</a></div>
+                        <div class="col bg-Angular pos-z l-menu"><a href="componentes/ANGULAR/ang_005.html">CRUD CON UN MOCKDATA</a></div>
+                        <div class="col bg-Angular pos-z l-menu"><a href="componentes/ANGULAR/ang_006.html">RXJS</a></div>
+                        <div class="col bg-Angular pos-z l-menu"><a href="componentes/ANGULAR/ang_007.html">MICROFRONTENDS</a></div>
+                        <div class="col bg-Angular pos-z l-menu"><a href="componentes/ANGULAR/ang_008.html">MONTAR EN DOMINIO</a></div>
+                        <div class="col bg-Angular rot-1 l-menu"><a href="componentes/ANGULAR/ang_009.html">REDUX</a></div>
+                        <div class="col bg-Angular rot-2 l-menu"><a href="componentes/ANGULAR/ang_010.html">IONIC INSTALACIÓN</a></div>
+                        <div class="col bg-Angular rot-2 l-menu"><a href="componentes/ANGULAR/ang_011.html">TIEMPO REAL SOCKET Y REST</a></div>
+                    </div>
                 </div>
             </div>
 
