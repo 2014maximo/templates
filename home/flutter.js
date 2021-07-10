@@ -12,7 +12,9 @@ class SellMenuCatFlutter extends HTMLElement {
                 <div class="col-md-1"></div>
                 <div class="col-md-10">
                     <div class="text-right">
-                        <img src="styles/assets/categorias/flutter_text_white.png" alt="" width="auto" height="40" class="drop">
+                        <a href="componentes/FLUTTER/categoria.html">
+                            <img src="styles/assets/categorias/flutter_text_white.png" alt="" width="auto" height="40" class="drop h-zoom">
+                        </a>
                     </div>
                     <div class="row m-3">
                         <div class="col bg-Flutter pos-z l-menu"><a href="componentes/FLUTTER/flutter_001.html">INSTALACIÓN</a></div>

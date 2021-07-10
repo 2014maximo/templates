@@ -12,8 +12,8 @@ class SellMenuCatSQL extends HTMLElement {
             <div class="col-md-1"></div>
             <div class="col-md-10">
                 <div class="text-right">
-                    <a href="componentes/ANGULAR/categoria.html">
-                        <img src="styles/assets/categorias/sql.png" alt="" width="auto" height="80" class="drop">
+                    <a href="componentes/SQL/categoria.html">
+                        <img src="styles/assets/categorias/sql.png" alt="" width="auto" height="80" class="drop h-zoom">
                     </a>
                 </div>
                 <div class="row m-3">

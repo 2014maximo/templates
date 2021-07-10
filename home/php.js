@@ -12,8 +12,8 @@ class SellMenuCatPhp extends HTMLElement {
                 <div class="col-md-1"></div>
                 <div class="col-md-10">
                     <div class="text-right">
-                    <a href="componentes/PHP/categoria.html">
-                            <img src="styles/assets/categorias/php.png" alt="" width="auto" height="60" class="drop">
+                        <a href="componentes/PHP/categoria.html">
+                            <img src="styles/assets/categorias/php.png" alt="" width="auto" height="60" class="drop h-zoom">
                         </a>
                     </div>
                     <div class="row m-3">

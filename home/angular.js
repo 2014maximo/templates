@@ -13,7 +13,7 @@ class SellMenuCatAngular extends HTMLElement {
         <div class="col-md-10">
           <div class="text-right">
             <a href="componentes/ANGULAR/categoria.html">
-              <img src="styles/assets/categorias/angular.png" alt="" width="auto" height="80" class="drop">
+              <img src="styles/assets/categorias/angular.png" alt="" width="auto" height="80" class="drop h-zoom">
             </a>
           </div>
           <div class="row m-3">

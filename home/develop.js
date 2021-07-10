@@ -12,7 +12,10 @@ class SellMenuCatDevelop extends HTMLElement {
           <div class="col-md-1"></div>
           <div class="col-md-10">
             <div class="text-right">
-              <img src="styles/assets/categorias/devlop.png" alt="" width="auto" height="40" class="drop">
+              <a href="componentes/DEVELOP/categoria.html">
+                <img src="styles/assets/categorias/devlop.png" alt="" width="auto" height="60" class="drop h-zoom mr-4">
+                <h2 class="fuenteSeis colorDevelop text-shadow-a">Developer</h2>
+              </a>
             </div>
             <div class="row m-3">
               <div class="col bg-Develop pos-z l-menu"><a href="componentes/DEVELOP/dev_001.html">SUPER RECURSOS</a></div>

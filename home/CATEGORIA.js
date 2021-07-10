@@ -33,6 +33,7 @@ class SellMenuCategorias extends HTMLElement {
               <div class="p-4 d-flex justify-content-around align-items-center text-center drop" style="background-image: url('./styles/assets/categorias/tablaMenu1.png');background-repeat: no-repeat;background-size: cover;">
                 <div class="linkCategoria" onClick="menuUno('develop', '80%')">
                   <img src="styles/assets/categorias/devlop.png" alt="" width="auto" height="60" class="drop">
+                  <h2 class="fuenteSeis colorDevelop text-shadow-a">Developer</h2>
                 </div>
                 <div class="linkCategoria" onClick="menuUno('flutter', '80%')">
                   <img src="styles/assets/categorias/flutter_text_white.png" alt="" width="auto" height="80" class="drop">

@@ -12,7 +12,9 @@ class SellMenuCatGit extends HTMLElement {
                 <div class="col-md-1"></div>
                 <div class="col-md-10">
                     <div class="text-right">
-                        <img src="styles/assets/categorias/git-light.png" alt="" width="auto" height="40" class="drop">
+                        <a href="componentes/GIT/categoria.html">
+                            <img src="styles/assets/categorias/git-light.png" alt="" width="auto" height="40" class="drop h-zoom">
+                        </a>
                     </div>
                     <div class="row m-3">
                         <div class="col bg-Git pos-z l-menu"><a href="componentes/GIT/flutter_001.html">INSTALACIÓN</a></div>
