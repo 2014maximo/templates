@@ -18,11 +18,11 @@ class SellMenuCatCSS extends HTMLElement {
                     </div>
                     <div class="row m-3">
                         <div class="col bg-Css pos-z l-menu"><a href="componentes/CSS/css_001.html">ATRIBUTOS CSS</a></div>
-                        <div class="col bg-Css rot-2 l-menu"><a href="componentes/CSS/css_001.html">HOVER SOBRE IMÁGENES</a></div>
-                        <div class="col bg-Css rot-1 l-menu"><a href="componentes/CSS/css_001.html">VARIABLES CSS</a></div>
-                        <div class="col bg-Css rot-2 l-menu"><a href="componentes/CSS/css_001.html">MEDIA QUERIES</a></div>
-                        <div class="col bg-Css pos-z l-menu"><a href="componentes/CSS/css_001.html">SLIDER SOLO CON CSS</a></div>
-                        <div class="col bg-Css pos-z l-menu"><a href="componentes/CSS/css_001.html">BOTONES REDES</a></div>
+                        <div class="col bg-Css rot-2 l-menu"><a href="componentes/CSS/css_002.html">HOVER SOBRE IMÁGENES</a></div>
+                        <div class="col bg-Css rot-1 l-menu"><a href="componentes/CSS/css_003.html">VARIABLES CSS</a></div>
+                        <div class="col bg-Css rot-2 l-menu"><a href="componentes/CSS/css_004.html">MEDIA QUERIES</a></div>
+                        <div class="col bg-Css pos-z l-menu"><a href="componentes/CSS/css_005.html">SLIDER SOLO CON CSS</a></div>
+                        <div class="col bg-Css pos-z l-menu"><a href="componentes/CSS/css_006.html">BOTONES REDES</a></div>
                     </div>
                 </div>
                 <div class="col-md-1"></div>
