@@ -23,6 +23,7 @@ class SellMenuCatCSS extends HTMLElement {
                         <div class="col bg-Css rot-2 l-menu"><a href="componentes/CSS/css_004.html">MEDIA QUERIES</a></div>
                         <div class="col bg-Css pos-z l-menu"><a href="componentes/CSS/css_005.html">SLIDER SOLO CON CSS</a></div>
                         <div class="col bg-Css pos-z l-menu"><a href="componentes/CSS/css_006.html">BOTONES REDES</a></div>
+                        <div class="col bg-Css rot-2 l-menu"><a href="componentes/CSS/css_007.html">MENÚ HAMBURGUESA ANIMADO</a></div>
                     </div>
                 </div>
                 <div class="col-md-1"></div>

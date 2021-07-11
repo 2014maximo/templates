@@ -40,25 +40,104 @@
             <div class="col-md-1"></div>
             <div class="col-md-10">
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-md-2">
+                        <img src="../../styles/assets/categorias/CSS/menu-burger.gif" alt="">
+                    </div>
+                    <div class="col-md-10 text-center">
                         <p class="tituloUno fw-3 text-light fs-18">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat autem exercitationem obcaecati cumque minima sed a consectetur, perspiciatis excepturi labore magni eveniet enim atque, placeat porro libero harum eligendi ipsam.
-                        <br>
-                        <br>
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis sed quos corporis, magnam enim perspiciatis, voluptatum adipisci recusandae pariatur beatae nam. Voluptatem rerum ullam deserunt earum aspernatur repudiandae similique mollitia.
+                            Clásico botón para abrir y cerrar menú. Este elemento suele usarse especialmente en los "menu headers".
                         </p>
                     </div>
-                </div>
-                <div class="espacio"></div>
-                <div class="row">
-
                 </div>
                 
             </div>
             <div class="col-md-1"></div>
+        </div>                
+
+                <div class="row mt-5">
+                    <div class="col-md-6">
+                        <i class="fa fa-clone cursor-p text-light fw-6 fs-25 ml-5" aria-hidden="true" onClick="copiarAlPortapapeles('html-code')"></i>
+                        <img src="../../styles/assets/categorias/CSS/menu-burger.png" alt="Código HTML" width="100%" height="auto">
+                        <i class="fa fa-clone cursor-p text-light fw-6 fs-25 ml-5" aria-hidden="true" onClick="copiarAlPortapapeles('js-code')"></i>
+                        <img src="../../styles/assets/categorias/CSS/menu-burger3.png" alt="Código HTML" width="100%" height="auto">
+                    </div>
+                    <div class="col-md-6">
+                        <i class="fa fa-clone cursor-p text-light fw-6 fs-25 ml-5" aria-hidden="true" onClick="copiarAlPortapapeles('css-code')"></i>
+                        <img src="../../styles/assets/categorias/CSS/menu-burger2.png" alt="Código CSS" width="100%" height="auto">
+                    </div>
+                </div>
+                <div class="espacio"></div>
+
+
             
         </div>
     </div>
+
+    <!-- CLIPBOARD -->
+    <pre id="html-code" class="d-none">
+        <div class="menu-btn">\<div class="menu-btn-burger"></div>\</div>
+    </pre>
+    <pre id="css-code" class="d-none">
+        /* Botón hamburguesa */
+.menu-btn {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+.menu-btn-burger {
+    width: 50px;
+    height: 6px;
+    background: #fff;
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
+}
+.menu-btn-burger::before,
+.menu-btn-burger::after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 6px;
+    background: #fff;
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
+}
+.menu-btn-burger::before {
+    transform: translateY(-16px);
+}
+.menu-btn-burger::after {
+    transform: translateY(16px);
+}
+.menu-btn.open .menu-btn-burger {
+    transform: translateX(-50px);
+    background: transparent;
+}
+.menu-btn.open .menu-btn-burger::before {
+    transform: rotate(45deg) translate(35px, -35px);
+}
+.menu-btn.open .menu-btn-burger::after {
+    transform: rotate(-45deg) translate(35px, 35px);
+}
+/* -------------------- */
+    </pre>
+    <pre id="js-code" class="d-none">
+        const menuBtn = document.querySelector(".menu-btn");
+        let menuOpen = false;
+        menuBtn.addEventListener("click", () => {
+            if (!menuOpen) {
+                menuBtn.classList.add("open");
+                menuOpen = true;
+            } else {
+                menuBtn.classList.remove("open");
+                menuOpen = false;
+    }
+});
+    </pre>
+
 
     <script src="../../styles/js/scripts.js"></script>
     <script src="../../styles/js/web-components/wc-header.js"></script>
