@@ -30,7 +30,6 @@ function copiarAlPortapapeles(id_elemento) {
   document.body.removeChild(aux);
 }
 
-
 const menuBtn = document.querySelector(".menu-btn");
 let menuOpen = false;
 menuBtn.addEventListener("click", () => {
