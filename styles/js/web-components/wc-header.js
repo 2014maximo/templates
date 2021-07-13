@@ -10,7 +10,7 @@ class SellHeader extends HTMLElement {
             <div class="row">
                 <div class="col-1"></div>
                 <div class="col-4">
-                    <a href="../../index.html">
+                    <a href="javascript: history.go(-1)">
                         <h2 class="tituloDos text-light">TRUCOS PA' DESARROLLO</h2>
                     </a>
                 </div>
