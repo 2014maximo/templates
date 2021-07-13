@@ -1,10 +1,10 @@
 class SellHeader extends HTMLElement {
     constructor () {
-      super();
+        super();
     }
     
     connectedCallback () {
-      this.innerHTML = `
+    this.innerHTML = `
         <div id="head"></div>
         <div class="header fixed-top text-primary pt-3 pb-3 grandes transparenciaUno">
             <div class="row">
@@ -49,4 +49,4 @@ class SellHeader extends HTMLElement {
     `;
     }
 }
-window.customElements.define('sell-head', SellHeader)
+window.customElements.define('sell-head', SellHeader);
