@@ -5,7 +5,8 @@ class SellHeaderHome extends HTMLElement {
       
       connectedCallback () {
         this.innerHTML = `
-        <div class="bg-dark header fixed-top text-primary pt-3 pb-3 grandes transparenciaUno">
+        <div id="head"></div>
+        <div id="head" class="bg-dark header fixed-top text-primary pt-3 pb-3 grandes transparenciaUno">
             <div class="row">
                 <div class="col-1"></div>
                 <div class="col-4">
@@ -34,7 +35,12 @@ class SellHeaderHome extends HTMLElement {
             </button>
             </nav>
         </div>
-       `;
-      }
+        <a href="#head">
+            <div class="go-up">
+                <i class="fa fa-chevron-up" aria-hidden="true"></i>
+            </div>
+        </a>
+    `;
     }
+}
 window.customElements.define('sell-head-home', SellHeaderHome)

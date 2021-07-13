@@ -5,6 +5,7 @@ class SellHeader extends HTMLElement {
     
     connectedCallback () {
       this.innerHTML = `
+        <div id="head"></div>
         <div class="header fixed-top text-primary pt-3 pb-3 grandes transparenciaUno">
             <div class="row">
                 <div class="col-1"></div>
@@ -40,7 +41,12 @@ class SellHeader extends HTMLElement {
                 </button>
             </nav>
         </div>
-     `;
+        <a href="#head">
+            <div class="go-up">
+                <i class="fa fa-chevron-up" aria-hidden="true"></i>
+            </div>
+        </a>
+    `;
     }
-  }
+}
 window.customElements.define('sell-head', SellHeader)
