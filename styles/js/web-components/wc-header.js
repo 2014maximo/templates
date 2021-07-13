@@ -10,7 +10,7 @@ class SellHeader extends HTMLElement {
             <div class="row">
                 <div class="col-1"></div>
                 <div class="col-4">
-                    <a href="https://2014maximo.github.io/templates/">
+                    <a href="../../index.html">
                         <h2 class="tituloDos text-light">TRUCOS PA' DESARROLLO</h2>
                     </a>
                 </div>
