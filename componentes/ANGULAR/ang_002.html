@@ -152,16 +152,16 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <p class="text-light fs-25 fw-6 mb-0">Función <span class="fw-3 font-italic">"describe()"</span></p>
+                <p class="text-light fs-25 fw-6 mb-0">Función <span class="fw-3 font-italic">"describe('', ()=>{})"</span></p>
                 <p class="text-light tituloUno fw-3">
                     La función "describe()", es la que contiene todo el area de pruebas, recibe 2 parámetros que serían la descripción que es una cadena de texto y recibe otra función que es la que contiene todo el área de pruebas.
                 </p>
 
-                <p class="text-light fs-25 fw-6 mb-0 mt-3">Función <span class="fw-3 font-italic">"beforeEach()"</span></p>
+                <p class="text-light fs-25 fw-6 mb-0 mt-3">Función <span class="fw-3 font-italic">"beforeEach(()=>{})"</span></p>
                 <p class="text-light tituloUno fw-3">
                     Esta función ejecuta todo lo que tiene dentro de si, antes de cada una de las pruebas.
                 </p>
-                <p class="text-light fs-25 fw-6 mb-0 mt-3">Función <span class="fw-3 font-italic">"beforeAll()"</span></p>
+                <p class="text-light fs-25 fw-6 mb-0 mt-3">Función <span class="fw-3 font-italic">"beforeAll(()=>{})"</span></p>
                 <p class="text-light tituloUno fw-3">
                     Esta función ejecuta todo lo que tiene dentro de si, antes de todas las pruebas.
                 </p>
@@ -170,25 +170,40 @@
         </div>
         <div class="row mt-5">
             <div class="col-md-12">
-                <p class="text-light fs-25 fw-6 mb-0">Función <span class="fw-3 font-italic">"afteEach()"</span></p>
+                <p class="text-light fs-25 fw-6 mb-0">Función <span class="fw-3 font-italic">"afteEach(()=>{})"</span></p>
                 <p class="text-light tituloUno fw-3">
                     Esta función ejecuta todo lo que tiene dentro de si, despues de cada una de las pruebas.
                 </p>
-                <p class="text-light fs-25 fw-6 mb-0 mt-3">Función <span class="fw-3 font-italic">"afteAll()"</span></p>
+                <p class="text-light fs-25 fw-6 mb-0 mt-3">Función <span class="fw-3 font-italic">"afteAll(() => {})"</span></p>
                 <p class="text-light tituloUno fw-3">
                     Esta función ejecuta todo lo que tiene dentro de si, despues de todas las pruebas.
                 </p>
+                <p class="text-light fs-25 fw-6 mb-0 mt-3">Función <span class="fw-3 font-italic">"it('' () =>{})"</span></p>
+                <p class="text-light tituloUno fw-3">
+                    Dentro de esta función en específico, se construye la evaluación.
+                </p>
+                <p class="text-light fs-25 fw-6 mb-0 mt-3">Función <span class="fw-3 font-italic">"expect()."</span></p>
+                <p class="text-light tituloUno fw-3">
+                    Esta función es la encargada de ejecutar una comparación del resultado esperado o fallido.
+                </p>
             </div>
         </div>
+    </div>
+    <div class="col-md-1"></div>
+</div>
 
+<div class="espacio"></div>
+
+<div class="row">
+    <div class="col-md-12">
         <div class="row mt-5">
             <div class="col-md-1"></div>
             <div class="col-md-10">
                 <div class="row">
-                    <div class="col-md-2">
+                    <div class="col-md-1">
                         <h2 class="titleBig text-light">3</h2>
                     </div>
-                    <div class="col-md-10">
+                    <div class="col-md-11">
                         <h3 class="subTituloPost">¿Como se prueba?</h3>
                         <p class="text-light tituloUno fw-3 mt-2">
                             Entrando en materia estos son algunos de los ejemplos aplicados a las pruebas en general:
@@ -199,7 +214,32 @@
             </div>
             <div class="col-md-1"></div>
         </div>
-
+        <div class="row mt-5">
+            <div class="col-md-4 text-center">
+                <h3 class="subTituloPost">Código</h3>
+                <p class="fw-3 font-italic text-light fs-18">
+                    app-component.html<br>
+                    app.component.ts
+                </p>
+            </div>
+            <div class="col-md-8 text-center">
+                <h3 class="subTituloPost">Prueba</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 mr-0">
+                <img src="../../styles/assets/categorias/Angular/Pruebas unitarias/app-component-html.png" alt="App Component" class="img-fluid">
+                <img src="../../styles/assets/categorias/Angular/Pruebas unitarias/app-component-ts.png" alt="App Component" class="img-fluid">
+            </div>
+            <div class="col-md-8 ml-0">
+                <img src="../../styles/assets/categorias/Angular/Pruebas unitarias/app-component-spect.png" alt="App Component.spec" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-10">
         <div class="row mt-5">
             <div class="col-md-1"></div>
             <div class="col-md-10">
@@ -223,11 +263,8 @@
             </div>
             <div class="col-md-1"></div>
         </div>
-
-        
     </div>
     <div class="col-md-1"></div>
-    
 </div>
 
 
