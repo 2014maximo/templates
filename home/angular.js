@@ -29,6 +29,16 @@ class SellMenuCatAngular extends HTMLElement {
             <div class="col bg-Angular rot-2 l-menu"><a href="componentes/ANGULAR/ang_010.html">IONIC INSTALACIÓN</a></div>
             <div class="col bg-Angular rot-2 l-menu"><a href="componentes/ANGULAR/ang_011.html">TIEMPO REAL SOCKET Y REST</a></div>
           </div>
+          <h2 class="fuenteSeis text-light mt-5 fs-40">Ionic</h2>
+          <div class="row m-3">
+            <div class="col bg-Angular pos-z l-menu"><a href="componentes/ANGULAR/ang_001.html">INSTALACIÓN</a></div>
+            <div class="col bg-Angular rot-2 l-menu"><a href="componentes/ANGULAR/ang_002.html">ELEMENTOS DESCRIPCIÓN</a></div>
+          </div>
+          <h2 class="fuenteSeis text-light mt-5 fs-40">PrimeNG</h2>
+          <div class="row m-3">
+            <div class="col bg-Angular pos-z l-menu"><a href="componentes/ANGULAR/ang_001.html">INSTALACIÓN</a></div>
+            <div class="col bg-Angular rot-2 l-menu"><a href="componentes/ANGULAR/ang_002.html">ELEMENTOS DESCRIPCIÓN</a></div>
+          </div>
         </div>
         <div class="col-md-1"></div>
       </div>

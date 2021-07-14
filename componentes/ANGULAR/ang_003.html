@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../styles/assets/icon/favicon.png">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="../../styles/css/style.css">
     <link rel="stylesheet" href="../../styles/css/post.css">
@@ -38,20 +39,28 @@
             <p class="tituloUno fw-3 text-light fs-18">
                 El decorador Input es más simple de implementar y de entender cómo funciona. Mensionando tambien que permite pasar datos de un componente que contiene a otro de esta manera:
             </p>
-            <img src="../../styles/assets/categorias/Angular/Input Output/Input2.png" alt="Input" class="img-fluid sombraUno p-4 rounded">
+            <img src="../../styles/assets/categorias/Angular/Input Output/Input2.png" alt="Input" class="img-fluid sombraUno rounded">
             <div class="row mt-5">
-                <div class="col-md-6 text-center">
+                <div class="col-md-7 text-center p-0">
                     <p class="tituloUno fw-3 text-light fs-25 mb-0">Hijo</p>
-                    <img src="../../styles/assets/categorias/Angular/Input Output/Input-hijo-ts.png" alt="Input hijo" class="img-fluid">
-                    <p class="tituloUno fw-3 text-light fs-18">
+                    <img src="../../styles/assets/categorias/Angular/Input Output/Input-hijo-ts.png" alt="Input hijo" class="img-fluid sombraUno rounded">
+                    <p class="tituloUno fw-3 text-light fs-18 mt-5">
                         Mediante @Input() el componente hijo recibe los datos a través de la vista html, vista anteriormente.
                     </p>
                 </div>
-                <div class="col-md-6 text-center">
+                <div class="col-md-5 text-center">
                     <p class="tituloUno fw-3 text-light fs-25 mb-0">Padre</p>
-                    <img src="../../styles/assets/categorias/Angular/Input Output/Input-padre-ts.png" alt="Input padre" class="img-fluid">
+                    <img src="../../styles/assets/categorias/Angular/Input Output/Input-padre-ts.png" alt="Input padre" class="img-fluid sombraUno rounded">
+                    <p class="tituloUno fw-3 text-light fs-18 mt-5">
+                        Desde el componente padre la variable que va a pasar los datos es simplemente una variable global.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="subTituloPost mb-3 mt-5">Output</h3>
                     <p class="tituloUno fw-3 text-light fs-18">
-                        Desde el componente padre la data es simplemente una variable global.
+                        A través del "Output" se puede enviar datos de padre a componente hijo y tambien
                     </p>
                 </div>
             </div>
