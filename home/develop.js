@@ -19,11 +19,12 @@ class SellMenuCatDevelop extends HTMLElement {
             </div>
             <div class="row m-3">
               <div class="col bg-Develop pos-z l-menu"><a href="componentes/DEVELOP/dev_001.html">SUPER RECURSOS</a></div>
-              <div class="col bg-Develop rot-2 l-menu"><a href="componentes/DEVELOP/develop_001.html">PSEINT EL INICIO</a></div>
-              <div class="col bg-Develop rot-1 l-menu"><a href="componentes/DEVELOP/develop_001.html">VISUAL STUDIO CODE</a></div>
-              <div class="col bg-Develop rot-2 l-menu"><a href="componentes/DEVELOP/develop_001.html">SUBLIME TEXT</a></div>
-              <div class="col bg-Develop pos-z l-menu"><a href="componentes/DEVELOP/develop_001.html">ATOM</a></div>
-              <div class="col bg-Develop pos-z l-menu"><a href="componentes/DEVELOP/develop_001.html">ALGORITMOS AVANZADOS</a></div>
+              <div class="col bg-Develop rot-2 l-menu"><a href="componentes/DEVELOP/dev_002.html">PSEINT EL INICIO</a></div>
+              <div class="col bg-Develop rot-1 l-menu"><a href="componentes/DEVELOP/dev_003.html">VISUAL STUDIO CODE</a></div>
+              <div class="col bg-Develop rot-2 l-menu"><a href="componentes/DEVELOP/dev_004.html">SUBLIME TEXT</a></div>
+              <div class="col bg-Develop pos-z l-menu"><a href="componentes/DEVELOP/dev_005.html">ATOM</a></div>
+              <div class="col bg-Develop pos-z l-menu"><a href="componentes/DEVELOP/dev_006.html">ALGORITMOS AVANZADOS</a></div>
+              <div class="col bg-Develop pos-z l-menu"><a href="componentes/DEVELOP/dev_007.html">PRINCIPIOS SOLID Y ARQUITECTURA HEXAGONAL</a></div>
             </div>
           </div>
           <div class="col-md-1"></div>
