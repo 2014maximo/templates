@@ -26,7 +26,7 @@ class SellMenuCatAngular extends HTMLElement {
             <div class="col bg-Angular pos-z l-menu"><a href="componentes/ANGULAR/ang_007.html">MICROFRONTENDS</a></div>
             <div class="col bg-Angular pos-z l-menu"><a href="componentes/ANGULAR/ang_008.html">MONTAR EN DOMINIO</a></div>
             <div class="col bg-Angular rot-1 l-menu"><a href="componentes/ANGULAR/ang_009.html">REDUX</a></div>
-            <div class="col bg-Angular rot-2 l-menu"><a href="componentes/ANGULAR/ang_010.html">IONIC INSTALACIÓN</a></div>
+            <div class="col bg-Angular rot-2 l-menu"><a href="componentes/ANGULAR/ang_010.html">METODO DEL BARRIL</a></div>
             <div class="col bg-Angular rot-2 l-menu"><a href="componentes/ANGULAR/ang_011.html">TIEMPO REAL SOCKET Y REST</a></div>
           </div>
           <h2 class="fuenteSeis text-light mt-5 fs-40">Ionic</h2>
