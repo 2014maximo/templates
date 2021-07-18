@@ -10,7 +10,7 @@ class SellHeader extends HTMLElement {
             <div class="row">
                 <div class="col-1"></div>
                 <div class="col-4">
-                    <a href="javascript: history.go(-1)">
+                    <a href="https://2014maximo.github.io/templates/">
                         <h2 class="tituloDos text-light">TRUCOS PA' DESARROLLO</h2>
                     </a>
                 </div>
@@ -33,7 +33,9 @@ class SellHeader extends HTMLElement {
                 </div>
             </div>
             <nav class="navbar navbar-dark bg-dark text-light">
-                <h2 class="fuenteDos">TRUCOS PA' DESARROLLO</h2>
+                <a href="https://2014maximo.github.io/templates/">
+                    <h2 class="tituloDos text-light">TRUCOS PA' DESARROLLO</h2>
+                </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
                     aria-expanded="false" aria-label="Toggle navigation">
