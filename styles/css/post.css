@@ -122,4 +122,12 @@
 .menu-btn.open .menu-btn-burger::after {
     transform: rotate(-45deg) translate(35px, 35px);
 }
+.h-hight-zoom{
+    transition: transform .2s;
+    cursor: pointer;
+    z-index: 9999;
+}
+.h-hight-zoom:hover{
+    transform: scale(1.4);
+}
 /* -------------------- */
