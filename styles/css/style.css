@@ -279,6 +279,9 @@ a:hover {
     text-shadow: black 0.2em 0.1em 0.1em;
 }
 /* ESTILOS IMPORTABLES */
+.zi-1{
+    z-index: 1;
+}
 /* ESTILOS CAROUSEL FRASES */
 .retire-dots .owl-dots {
     display: none !important;
