@@ -125,9 +125,15 @@
 .h-hight-zoom{
     transition: transform .2s;
     cursor: pointer;
-    z-index: 9999;
 }
 .h-hight-zoom:hover{
     transform: scale(1.4);
+}
+.h-medium-zoom{
+    transition: transform .2s;
+    cursor: pointer;
+}
+.h-medium-zoom:hover{
+    transform: scale(1.2);
 }
 /* -------------------- */

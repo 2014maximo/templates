@@ -94,13 +94,13 @@
             <div class="col-md-1"></div>
         </div>
         <div class="row mt-5">
-            <div class="col-md-8 text-center">
+            <div class="col-md-8 text-center zi-5">
                 <p class="text-light fs-25 fw-6 mb-0">Las librerías que hacen las pruebas</p>
                 <div>
-                    <img src="../../styles/assets/code/karma_dependencies.png" class="img-fluid h-hight-zoom">
+                    <img src="../../styles/assets/code/karma_dependencies.png" alt="example karma dependencies" class="img-fluid h-hight-zoom">
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 zi-1">
                 <p id="clip-npm-karma" class="d-none">
                     npm i karma-jasmine
                 </p>
@@ -147,12 +147,12 @@
         </div>
 
         <div class="row mt-3">
-            <div class="col-md-8">
+            <div class="col-md-8 zi-5">
                 <div>
-                    <img src="../../styles/assets/categorias/Angular/Pruebas unitarias/contenedor-describe.png" class="img-fluid sombraUno h-hight-zoom">
+                    <img src="../../styles/assets/categorias/Angular/Pruebas unitarias/contenedor-describe.png" alt="example contenedor describe" class="img-fluid sombraUno h-medium-zoom">
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 zi-1">
                 <p class="text-light fs-25 fw-6 mb-0">Función <span class="fw-3 font-italic">"describe('', ()=>{})"</span></p>
                 <p class="text-light tituloUno fw-3">
                     La función "describe()", es la que contiene todo el area de pruebas, recibe 2 parámetros que serían la descripción que es una cadena de texto y recibe otra función que es la que contiene todo el área de pruebas.
@@ -254,7 +254,8 @@
                     <p class="text-primary fs-40 fw-3 mb-0 mt-3 fuenteSeis">pipe.component.ts</p>
                 </div>
                 <p class="text-light tituloUno fs-18 fw-3 mt-2 p-3">
-                    Prueba de un pipe, en este caso la prueba creada verifica que el componente este creado. Luego valida que el pipe formato número reciba un número plano y devuelva un número con un extructura con puntos.
+                    Prueba de un pipe, en este caso la prueba creada verifica que el componente este creado. Luego valida que el pipe formato número reciba un número plano y devuelva un número con un extructura con puntos.<br>
+                    La prueba debe garantizar que el pipe cumpla el objetivo de entregar un número con el formato especificado.
                 </p>
             </div>
             <div class="col-md-2"></div>
@@ -287,13 +288,13 @@
                         <p class="text-light tituloUno fw-3 mt-2">
                             Estos comandos se ejecutan una vez tengamos generadas las pruebas en los archivos .spec
                         </p>
-                        <p class="text-light fs-25 fw-6 mb-0">npm run test</p>
+                        <p class="text-light fs-25 fw-6 mb-0">npm run test <i class="fa fa-clone cursor-p" aria-hidden="true" title="Copiar" onClick="copiarAlPortapapeles('clip-run-test')"></i></p>
                         <p class="text-light fuenteUno fw-3">Corre por defecto las pruebas</p>
-                        <p class="text-light fs-25 fw-6 mb-0">ng test</p>
+                        <p class="text-light fs-25 fw-6 mb-0">ng test <i class="fa fa-clone cursor-p" aria-hidden="true" title="Copiar" onClick="copiarAlPortapapeles('clip-ng-test')"></i></p>
                         <p class="text-light fuenteUno fw-3">Corre por defecto las pruebas</p>
-                        <p class="text-light fs-25 fw-6 mb-0">ng test --no-watch --code-coverage</p>
+                        <p class="text-light fs-25 fw-6 mb-0">ng test --no-watch --code-coverage <i class="fa fa-clone cursor-p" aria-hidden="true" title="Copiar" onClick="copiarAlPortapapeles('clip-coverage')"></i></p>
                         <p class="text-light fuenteUno fw-3">Este comando genera una carpeta de análisis en formato html</p>
-                    </div>
+                    </div>z
                 </div>
             </div>
             <div class="col-md-1"></div>
@@ -307,7 +308,10 @@
 
 <!-- Fin contenido ------------------------------------------------------------------------->
 <div class="espaciado"></div>
-
+<!-- Contenido para clipboard --------->
+<p id="clip-run-test" class="d-none">npm run test</p>
+<p id="clip-ng-test" class="d-none">ng test</p>
+<p id="clip-coverage" class="d-none">ng test --no-watch --code-coverage</p>
 <!-- Footer --------->
 <sell-footer></sell-footer>
 
