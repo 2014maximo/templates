@@ -17,7 +17,7 @@ class SellMenuCatDart extends HTMLElement {
                         </a>
                     </div>
                     <div class="row m-3">
-                        <div class="col bg-Dart pos-z l-menu"><a href="componentes/DART/dart_001.html">INSTALACIÓN DE DART</a></div>
+                        <div class="col bg-Dart pos-z l-menu"><a href="componentes/DART/dart_001.html">INSTALACIÓN</a></div>
                         <div class="col bg-Dart rot-2 l-menu"><a href="componentes/DART/dart_001.html">ELEMENTOS Y DESCRIPCIÓN</a></div>
                         <div class="col bg-Dart rot-1 l-menu"><a href="componentes/DART/dart_001.html">CRUD</a></div>
                         <div class="col bg-Dart rot-2 l-menu"><a href="componentes/DART/dart_001.html">TERMINOS AVANZADOS</a></div>

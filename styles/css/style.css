@@ -257,6 +257,9 @@ a:hover {
 .fs-25{
     font-size: 25px !important;
 }
+.fs-30{
+    font-size: 30px !important;
+}
 .fs-40{
     font-size: 40px !important;
 }
@@ -391,6 +394,7 @@ a:hover {
 .l-menu a {
     text-decoration: none;
     font-family: var(--fuente-seis);
+    text-overflow: ellipsis;
     font-size: 30px;
 }
 .post-z{
