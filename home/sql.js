@@ -18,7 +18,7 @@ class SellMenuCatSQL extends HTMLElement {
                 </div>
                 <div class="row m-3">
                     <div class="col bg-Sql pos-z l-menu"><a href="componentes/SQL/sql_001.html">MODELO RELACIONAL Y ENTIDAD RELACIÓN</a></div>
-                    <div class="col bg-Sql rot-2 l-menu"><a href="componentes/SQL/sql_002.html">COMANDOS GENERALES</a></div>
+                    <div class="col bg-Sql rot-2 l-menu"><a href="componentes/SQL/sql_002.html">CONCEPTOS GENERALES</a></div>
                     <div class="col bg-Sql rot-1 l-menu"><a href="componentes/SQL/sql_003.html">DIFERENCIAS DE COMANDOS SQL</a></div>
                     <div class="col bg-Sql rot-2 l-menu"><a href="componentes/SQL/sql_004.html">ELEMENTOS DESCRIPCIÓN...</a></div>
                     <div class="col bg-Sql pos-z l-menu"><a href="componentes/SQL/sql_005.html">CRUD CON UN MOCKDATA</a></div>
