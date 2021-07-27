@@ -5,7 +5,7 @@ class SellMenuCategorias extends HTMLElement {
     
     connectedCallback () {
       this.innerHTML = `
-      <div class="row">
+      <div class="row d-none d-md-block">
       <div class="col-md-1"></div>
       <div class="col-md-10">
     
