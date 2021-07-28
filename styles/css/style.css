@@ -394,7 +394,6 @@ a:hover {
 .l-menu a {
     text-decoration: none;
     font-family: var(--fuente-seis);
-    text-overflow: ellipsis;
     font-size: 30px;
 }
 .post-z{
