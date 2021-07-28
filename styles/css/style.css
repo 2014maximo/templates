@@ -396,6 +396,9 @@ a:hover {
     font-family: var(--fuente-seis);
     font-size: 30px;
 }
+.l-menu a:hover {
+    color:#010101
+}
 .post-z{
     z-index: 1;
 }
