@@ -136,4 +136,8 @@
 .h-medium-zoom:hover{
     transform: scale(1.2);
 }
+
+.shadow-hover:hover {
+    box-shadow: 1px 39px 39px #000000;
+}
 /* -------------------- */
