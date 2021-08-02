@@ -281,6 +281,9 @@ a:hover {
 .lh-30{
     line-height: 30px !important;
 }
+.ww-break {
+    word-wrap: break-word;
+}
 .text-shadow {
     text-shadow: black 0.1em 0.1em 0.2em;
 }
