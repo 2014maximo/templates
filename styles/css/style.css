@@ -278,6 +278,9 @@ a:hover {
 .lh-18{
     line-height: 18px !important;
 }
+.lh-30{
+    line-height: 30px !important;
+}
 .text-shadow {
     text-shadow: black 0.1em 0.1em 0.2em;
 }
