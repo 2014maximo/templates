@@ -17,11 +17,11 @@ class SellMenuCatAndroid extends HTMLElement {
                         </a>
                     </div>
                     <div class="row m-3">
-                        <div class="col bg-Android pos-z l-menu"><a href="componentes/ANDROID/android_001.html">INSTALACIÓN ANDROID STUDIO...</a></div>
-                        <div class="col bg-Android rot-2 l-menu"><a href="componentes/ANDROID/android_002.html">ELEMENTOS Y DESCRIPCIÓN</a></div>
-                        <div class="col bg-Android rot-1 l-menu"><a href="componentes/ANDROID/android_003.html">GENERAR APK</a></div>
-                        <div class="col bg-Android rot-2 l-menu"><a href="componentes/ANDROID/android_004.html">PLAY STORE</a></div>
-                        <div class="col bg-Android pos-z l-menu"><a href="componentes/ANDROID/android_005.html">PRUEBAS UNITARIAS</a></div>
+                        <div class="col bg-Android pos-z l-menu"><a href="componentes/ANDROID/and_001.html">INSTALACIÓN ANDROID STUDIO...</a></div>
+                        <div class="col bg-Android rot-2 l-menu"><a href="componentes/ANDROID/and_002.html">ELEMENTOS Y DESCRIPCIÓN</a></div>
+                        <div class="col bg-Android rot-1 l-menu"><a href="componentes/ANDROID/and_003.html">GENERAR APK</a></div>
+                        <div class="col bg-Android rot-2 l-menu"><a href="componentes/ANDROID/and_004.html">PLAY STORE</a></div>
+                        <div class="col bg-Android pos-z l-menu"><a href="componentes/ANDROID/and_005.html">PRUEBAS UNITARIAS</a></div>
                     </div>
                 </div>
                 <div class="col-md-1"></div>
