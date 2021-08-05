@@ -9,16 +9,6 @@ class SellSliderHome extends HTMLElement {
       <div class="col-md-2"></div>
       <div class="col-md-8">
         <div id="demo" class="carousel slide sombraUno" data-ride="carousel">
-
-            <ul class="carousel-indicators">
-              <li data-target="#demo" data-slide-to="0" class="active"></li>
-              <li data-target="#demo" data-slide-to="1"></li>
-              <li data-target="#demo" data-slide-to="2"></li>
-              <li data-target="#demo" data-slide-to="3"></li>
-              <li data-target="#demo" data-slide-to="4"></li>
-              <li data-target="#demo" data-slide-to="5"></li>
-              <li data-target="#demo" data-slide-to="6"></li>
-            </ul>
             
             <div class="carousel-inner">
               <div class="carousel-item active">
