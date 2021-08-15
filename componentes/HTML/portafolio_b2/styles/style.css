@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;900&display=swap');
+:root {
+    /* FUENTE */
+    /* --color-base: #ffc107; */
+    /* --color-base: #ddc048; */
+    /* --color-base: #0073d0; */
+    --color-base: #e34b4a;
+
+    --fondo-base: #343a40;
+    /* LETRA */
+    --letra-base: 'Poppins';
+    }
+body {
+    margin:0;
+    font-family: var(--letra-base), sans-serif;
+}
+.w-10 {
+    width: 10% !important;
+}
+.w-20 {
+    width: 20% !important;
+}
+.w-30 {
+    width: 30% !important;
+}
+.w-40 {
+    width: 40% !important;
+}
+.w-60 {
+    width: 60% !important;
+}
+.w-70 {
+    width: 70% !important;
+}
+.w-80 {
+    width: 80% !important;
+}
+.w-90 {
+    width: 90% !important;
+}
+.img-avatar {
+    border-radius: 50%;
+    border: 15px solid;
+    object-fit: cover;
+}
+.nombre{
+    line-height: 40px;
+    font-size: 3rem;
+}
+.profesion {
+    letter-spacing: 3px;
+}
+.bloque1, .bloque2 {
+    border: 15px solid;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 30px;
+}
+.fondo-base {
+    background-color: var(--color-base);
+}
+.borde{
+    border: 5px solid var(--color-base);
+}
+.color-base {
+    color: var(--color-base) !important;
+}
+.border-base {
+    border-color: var(--color-base) !important;
+}
+.text-base {
+    color: var(--color-base);
+}
+.fw8 {
+    font-weight: 800 !important;
+}
+.fw6 {
+    font-weight: 600 !important;
+}
+.fs12 {
+    font-size: 12px !important;
+}
+.fs13 {
+    font-size: 13px !important;
+}
+.fs14 {
+    font-size: 14px !important;
+}
+.fs15{
+    font-size: 15px !important;
+}
+.fs25 {
+    font-size: 25px !important;
+}
+.fs30{
+    font-size: 25px !important;
+}
+.fs40{
+    font-size: 40px !important;
+}
+.h20{
+    height: 20px;
+}
+.bt-0 {
+    border-top: 0px !important;
+}
+.ml-base {
+    margin-left: 30px !important;
+}
+.br-15 {
+    border-radius: 15px !important;
+}
+.pr-15 {
+    padding-right: 15px !important;
+}
+.pl-15 {
+    padding-left:15px !important;
+}
+.pt-15 {
+    padding-top: 15px !important;
+}
+.psizes-row {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.list-experience {
+    padding-inline-start: 30px;
+}
+.list-experience li {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.list-experience li::marker {
+    color: var(--color-base);
+    font-size: 35px;
+}
+.size-icons i {
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.icon-habilidades{
+    height: 50px;
+    text-align: center;
+    width: 50px;
+    display: flex;
+    border-radius: 50%;
+    border: 2px solid var(--color-base);
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+.wrapper {
+    width: 100px; /* Set the size of the progress bar */
+    height: 100px;
+    position: absolute; /* Enable clipping */
+    clip: rect(0px, 100px, 100px, 50px); /* Hide half of the progress bar */
+}
+/* Set the sizes of the elements that make up the progress bar */
+.circle {
+    width: 80px;
+    height: 80px;
+    border: 10px solid green;
+    border-radius: 50px;
+    position: absolute;
+    clip: rect(0px, 50px, 100px, 0px);
+}
+/* Using the data attributes for the animation selectors. */
+/* Base settings for all animated elements */
+div[data-anim~=base] {
+    -webkit-animation-iteration-count: 1;  /* Only run once */
+    -webkit-animation-fill-mode: forwards; /* Hold the last keyframe */
+    -webkit-animation-timing-function:linear; /* Linear animation */
+}
+
+
+
+
+
+@-webkit-keyframes 
+load { 0% {
+stroke-dashoffset:0
+}
+}
+@-moz-keyframes 
+load { 0% {
+stroke-dashoffset:0
+}
+}
+@keyframes 
+load { 0% {
+stroke-dashoffset:0
+}
+}
+
+.progress>li {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    color: #93A2AC;
+    font-family: Lato;
+    font-weight: 100;
+    margin: 2rem;
+  }
+  
+  .progress>li:before {
+    content: attr(data-name);
+    position: absolute;
+    width: 100%;
+    bottom: -2rem;
+    font-weight: 400;
+  }
+  
+  .progress>li:after {
+    content: attr(data-percent);
+    position: absolute;
+    width: 100%;
+    top: 3.7rem;
+    left: 0;
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  .progress svg {
+    width: 10rem;
+    height: 10rem;
+  }
+  
+  .progress svg:nth-child(2) {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+  }
+  
+  .progress svg:nth-child(2) path {
+    fill: none;
+    stroke-width: 25;
+    stroke-dasharray: 629;
+    stroke: rgba(255, 255, 255, 0.9);
+    -webkit-animation: load 10s;
+    -moz-animation: load 10s;
+    -o-animation: load 10s;
+    animation: load 10s;
+  }
