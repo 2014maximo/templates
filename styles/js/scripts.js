@@ -1,6 +1,7 @@
 //Para evitar conflictos con versiones de Jquery entre wordpress y sus plugins
 /* $=jQuery.noConflict(); */
 
+
 function openNav() {
   document.getElementById("myNav").style.width = "100%";
 }

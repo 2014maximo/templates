@@ -12,7 +12,7 @@
 
     <link rel="stylesheet" href="../../styles/css/style.css">
     <link rel="stylesheet" href="../../styles/css/post.css">
-    <title>Consultas</title>
+    <title>Consultas sql server desde dbeaver</title>
 </head>
 
 <body class="fondoNegro">
@@ -23,11 +23,17 @@
 
 
     <!-- IMAGEN TITULAR ------------------------------------>
-    <div class="headerPost sombraUno"
-        style="background: url(../../../styles/assets/banner/super_recursos_de_internet.jpg); background-size: cover; background-position: center;background-repeat: no-repeat;">
+    <div class="headerPost">
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-10 d-flex justify-content-around align-items-center">
+                <img src="../../styles/assets/icon/microsoft_sqlserver.png" alt="SQL Server" height="200" width="auto" class="drop">
+                <img src="../../styles/assets/icon/dbeaver.png" alt="SQL Server" height="120" width="auto" class="drop">
+            </div>
+            <div class="col-md-1"></div>
+        </div>
     </div>
-    <div class="espacio"></div>
-    <h2 class="tituloPost p-2 text-center">CONSULTAS</h2>
+    <h2 class="tituloPost p-2 text-center">CONSULTAS SQL SERVER DESDE DBEAVER</h2>
     <!-- FIN IMAGEN TITULAR ------------------------------------>
 
 
@@ -36,8 +42,17 @@
     <div class="row">
         <div class="col-md-1"></div>
         <div class="col-md-10">
-            <p class="fuenteUno text-light fw-3">
-                El Contenido de esta página esta sujeto a renovación constante. En esta parte se listan una cantidad de consultas para usarlas como bases en consultas avanzadas y reestructurarlas de la manera que se requiera.
+            <div class="d-flex">
+                <p class="fuenteUno text-light fw-3 mb-0 mr-2">
+                    En esta ocasión se realizan procesos de consulta a una base de datos SQL Server, basados en una extructura ya diseñada:
+                </p>
+                <p class="fuenteUno font-italic fs-17 text-primary mb-0 mr-2">northwind.sql</p>
+                <a href="../../styles/assets/categorias/Temp/northwind.sql" title="northwind.sql" class="d-flex fw-3 text-danger" target="_blank">
+                    <i class="fa fa-download fs-25 t1 h-zoom" aria-hidden="true"></i>
+                </a>
+            </div>
+            <p class="fuenteUno text-light fw-3 mr-2">
+                Se utiliza el administrador de base de datos DBEAVER, en vez del comunmente utilizado SQL SERVER MANAGEMENT.
             </p>
         </div>
         <div class="col-md-1"></div>
@@ -46,15 +61,28 @@
     <div class="row">
         <div class="col-md-1"></div>
         <div class="col-md-10">
-            <div class="row">
-                <div class="col-md-6">
-                    <h3 class="fuenteSeis t1 text-shadow-a">Select * from CLIENTES</h3>
-                    <p class="fuenteUno text-light fw-3">
-                        Esta consulta trea todo el contenido de la tabla "CLIENTES".
-                    </p>
-                </div>
-                <div class="col-md-6"></div>
-            </div>
+
+            <h3 class="fuenteSeis t1 text-shadow-a">SELECT * from orders</h3>
+            <p class="fuenteUno text-light fw-3">
+                Esta consulta trae todo el contenido de la tabla "ORDERS".
+            </p>
+            <img src="../../styles/assets/categorias/SQL/sql_003/select-from-orders.png" alt="select-from-orders.png" class="img-fluid sombraUno cursor-p h-medium-zoom">
+
+            <div class="espaciado"></div>
+
+            <h3 class="fuenteSeis t1 text-shadow-a">SELECT orderid, customerid, shipcity FROM orders</h3>
+            <p class="fuenteUno text-light fw-3">
+                Esta consulta trae todo el contenido de la tabla "ORDERS".
+            </p>
+            <img src="../../styles/assets/categorias/SQL/sql_003/select-from-orders2.png" alt="select-from-orders.png" class="img-fluid sombraUno cursor-p h-medium-zoom">
+            
+            <div class="espaciado"></div>
+            
+            <h3 class="fuenteSeis t1 text-shadow-a">SELECT * FROM customers WHERE companyname like 'B%'</h3>
+            <p class="fuenteUno text-light fw-3">
+                Esta consulta trae todo el contenido de la tabla "ORDERS".
+            </p>
+            <img src="../../styles/assets/categorias/SQL/sql_003/select-from-orders3.png" alt="select-from-orders.png" class="img-fluid sombraUno cursor-p h-medium-zoom">
         </div>
         <div class="col-md-1"></div>
     </div>
