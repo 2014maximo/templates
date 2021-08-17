@@ -17,12 +17,12 @@ class SellMenuCatJavascript extends HTMLElement {
                         </a>
                     </div>
                     <div class="row m-3">
-                        <div class="col bg-Javascript pos-z l-menu"><a href="componentes/JAVASCRIPT/jscript_001.html">DESCRIPCIÓN Y ELEMENTOS</a></div>
-                        <div class="col bg-Javascript rot-2 l-menu"><a href="componentes/JAVASCRIPT/jscript_002.html">BUSCADOR JAVASCRIPT</a></div>
+                        <div class="col bg-Javascript pos-z l-menu"><a href="componentes/JAVASCRIPT/jscript_001.html"><del>DESCRIPCIÓN Y ELEMENTOS</del></a></div>
+                        <div class="col bg-Javascript rot-2 l-menu"><a href="componentes/JAVASCRIPT/jscript_002.html"><del>BUSCADOR JAVASCRIPT</del></a></div>
                         <div class="col bg-Javascript rot-1 l-menu"><a href="componentes/JAVASCRIPT/jscript_003.html">ITERANDO ARRAYS</a></div>
-                        <div class="col bg-Javascript rot-2 l-menu"><a href="componentes/JAVASCRIPT/jscript_004.html">LIBRERIAS</a></div>
-                        <div class="col bg-Javascript pos-z l-menu"><a href="componentes/JAVASCRIPT/jscript_005.html">CRUD</a></div>
-                        <div class="col bg-Javascript pos-z l-menu"><a href="componentes/JAVASCRIPT/jscript_006.html">MINI APIS</a></div>
+                        <div class="col bg-Javascript rot-2 l-menu"><a href="componentes/JAVASCRIPT/jscript_004.html"><del>LIBRERIAS</del></a></div>
+                        <div class="col bg-Javascript pos-z l-menu"><a href="componentes/JAVASCRIPT/jscript_005.html"><del>CRUD</del></a></div>
+                        <div class="col bg-Javascript pos-z l-menu"><a href="componentes/JAVASCRIPT/jscript_006.html"><del>MINI APIS</del></a></div>
                     </div>
                 </div>
                 <div class="col-md-1"></div>
