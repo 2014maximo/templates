@@ -70,7 +70,10 @@
 
             <div class="espaciado"></div>
 
-            <h3 class="fuenteSeis t1 text-shadow-a">SELECT orderid, customerid, shipcity FROM orders</h3>
+            <h3 class="fuenteSeis t1 text-shadow-a">
+                SELECT orderid, customerid, shipcity<br>
+                FROM orders
+            </h3>
             <p class="fuenteUno text-light fw-3">
                 Esta consulta trae todo el contenido de la tabla "ORDERS".
             </p>
@@ -78,11 +81,69 @@
             
             <div class="espaciado"></div>
             
-            <h3 class="fuenteSeis t1 text-shadow-a">SELECT * FROM customers WHERE companyname like 'B%'</h3>
+            <h3 class="fuenteSeis t1 text-shadow-a">
+                SELECT * FROM customers<br>
+                WHERE companyname like 'B%'
+            </h3>
             <p class="fuenteUno text-light fw-3">
                 Esta consulta trae todo el contenido de la tabla "ORDERS".
             </p>
             <img src="../../styles/assets/categorias/SQL/sql_003/select-from-orders3.png" alt="select-from-orders.png" class="img-fluid sombraUno cursor-p h-medium-zoom">
+
+            <div class="espaciado"></div>
+            
+            <h3 class="fuenteSeis t1 text-shadow-a">
+                SELECT * FROM Customers<br>
+                WHERE CustomerID LIKE 'Blaus'</h3>
+            <p class="fuenteUno text-light fw-3">
+                Esta consulta trae todo el contenido de la tabla "ORDERS".
+            </p>
+            <img src="../../styles/assets/categorias/SQL/sql_003/select-from-orders4.png" alt="select-from-orders.png" class="img-fluid sombraUno cursor-p h-medium-zoom">
+
+            <div class="espaciado"></div>
+            
+            <h3 class="fuenteSeis t1 text-shadow-a">
+                SELECT * FROM Customers<br>
+                WHERE CustomerID LIKE 'B%'<br>
+                ORDER BY ContactName</h3>
+                <p class="fuenteUno text-light fw-3">
+                    Esta consulta trae todo el contenido de la tabla "ORDERS".
+                </p>
+                <img src="../../styles/assets/categorias/SQL/sql_003/select-from-orders5.png" alt="select-from-orders.png" class="img-fluid sombraUno cursor-p h-medium-zoom">
+                
+            <div class="espaciado"></div>
+            <h3 class="fuenteSeis t1 text-shadow-a">
+                SELECT * FROM Customers<br>
+                WHERE CustomerID LIKE 'B%'<br>
+                ORDER BY ContactName DESC</h3>
+            <p class="fuenteUno text-light fw-3">
+                Esta consulta trae todo el contenido de la tabla "ORDERS".
+            </p>
+            <img src="../../styles/assets/categorias/SQL/sql_003/select-from-orders6.png" alt="select-from-orders.png" class="img-fluid sombraUno cursor-p h-medium-zoom">
+
+            <div class="espaciado"></div>
+            <h3 class="fuenteSeis t1 text-shadow-a">
+                SELECT * FROM products<br>
+                SELECT supplierid, COUNT (supplierid) as rocio<br>
+                FROM products<br>
+                GROUP BY supplierId
+            </h3>
+            <p class="fuenteUno text-light fw-3">
+                Esta consulta trae todo el contenido de la tabla "ORDERS".
+            </p>
+            <img src="../../styles/assets/categorias/SQL/sql_003/select-from-orders7.png" alt="select-from-orders.png" class="img-fluid sombraUno cursor-p h-medium-zoom">
+            
+            <div class="espaciado"></div>
+            <h3 class="fuenteSeis t1 text-shadow-a">
+                SELECT * FROM products<br>
+                SELECT supplierid, COUNT (supplierid) as rocio<br>
+                FROM products<br>
+                GROUP BY supplierId
+            </h3>
+            <p class="fuenteUno text-light fw-3">
+                Esta consulta trae todo el contenido de la tabla "ORDERS".
+            </p>
+            <img src="../../styles/assets/categorias/SQL/sql_003/select-from-orders7.png" alt="select-from-orders.png" class="img-fluid sombraUno cursor-p h-medium-zoom">
         </div>
         <div class="col-md-1"></div>
     </div>
