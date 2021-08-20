@@ -66,7 +66,7 @@
             <p class="fuenteUno text-light fw-3">
                 Esta consulta trae todo el contenido de la tabla "ORDERS".
             </p>
-            <img src="../../styles/assets/categorias/SQL/sql_003/select-from-orders.png" alt="select-from-orders.png" class="img-fluid sombraUno cursor-p h-medium-zoom">
+            <img src="../../styles/assets/categorias/SQL/sql_003/select-from-orders.png" alt="select-from-orders.png" class="img-fluid sombraUno cursor-p h-low-zoom">
 
             <div class="espaciado"></div>
 
@@ -75,9 +75,9 @@
                 FROM orders
             </h3>
             <p class="fuenteUno text-light fw-3">
-                Esta consulta trae todo el contenido de la tabla "ORDERS".
+                Esta consulta trae los "ORDERID", "CUSTOMERID" Y "SHIPCITY" de la tabla "ORDERS".
             </p>
-            <img src="../../styles/assets/categorias/SQL/sql_003/select-from-orders2.png" alt="select-from-orders.png" class="img-fluid sombraUno cursor-p h-medium-zoom">
+            <img src="../../styles/assets/categorias/SQL/sql_003/select-from-orders2.png" alt="select-from-orders.png" class="img-fluid sombraUno cursor-p h-low-zoom">
             
             <div class="espaciado"></div>
             
@@ -86,9 +86,9 @@
                 WHERE companyname like 'B%'
             </h3>
             <p class="fuenteUno text-light fw-3">
-                Esta consulta trae todo el contenido de la tabla "ORDERS".
+                Esta consulta trae todo de la tabla "CUSTOMERS" donde "COMPANYNAME" tenga la letra "B" al comienzo.
             </p>
-            <img src="../../styles/assets/categorias/SQL/sql_003/select-from-orders3.png" alt="select-from-orders.png" class="img-fluid sombraUno cursor-p h-medium-zoom">
+            <img src="../../styles/assets/categorias/SQL/sql_003/select-from-orders3.png" alt="select-from-orders.png" class="img-fluid sombraUno cursor-p h-low-zoom">
 
             <div class="espaciado"></div>
             
@@ -96,9 +96,9 @@
                 SELECT * FROM Customers<br>
                 WHERE CustomerID LIKE 'Blaus'</h3>
             <p class="fuenteUno text-light fw-3">
-                Esta consulta trae todo el contenido de la tabla "ORDERS".
+                Esta consulta trae todo de la tabla "CUSTOMERS" donde "CUSTOMERID" tenga "Blaus" en el contenido.
             </p>
-            <img src="../../styles/assets/categorias/SQL/sql_003/select-from-orders4.png" alt="select-from-orders.png" class="img-fluid sombraUno cursor-p h-medium-zoom">
+            <img src="../../styles/assets/categorias/SQL/sql_003/select-from-orders4.png" alt="select-from-orders.png" class="img-fluid sombraUno cursor-p h-low-zoom">
 
             <div class="espaciado"></div>
             
@@ -107,9 +107,9 @@
                 WHERE CustomerID LIKE 'B%'<br>
                 ORDER BY ContactName</h3>
                 <p class="fuenteUno text-light fw-3">
-                    Esta consulta trae todo el contenido de la tabla "ORDERS".
+                    Esta consulta la tabla "CUSTOMERS" mientras "CUSTOMERID" tenga la letra "B" al inicio y ordenados por el atributo "CONTACTNAME".
                 </p>
-                <img src="../../styles/assets/categorias/SQL/sql_003/select-from-orders5.png" alt="select-from-orders.png" class="img-fluid sombraUno cursor-p h-medium-zoom">
+                <img src="../../styles/assets/categorias/SQL/sql_003/select-from-orders5.png" alt="select-from-orders.png" class="img-fluid sombraUno cursor-p h-low-zoom">
                 
             <div class="espaciado"></div>
             <h3 class="fuenteSeis t1 text-shadow-a">
@@ -117,9 +117,9 @@
                 WHERE CustomerID LIKE 'B%'<br>
                 ORDER BY ContactName DESC</h3>
             <p class="fuenteUno text-light fw-3">
-                Esta consulta trae todo el contenido de la tabla "ORDERS".
+                Esta consulta la tabla "CUSTOMERS" mientras "CUSTOMERID" tenga la letra "B" al inicio y ordenados por el atributo "CONTACTNAME" en orden descendiente.
             </p>
-            <img src="../../styles/assets/categorias/SQL/sql_003/select-from-orders6.png" alt="select-from-orders.png" class="img-fluid sombraUno cursor-p h-medium-zoom">
+            <img src="../../styles/assets/categorias/SQL/sql_003/select-from-orders6.png" alt="select-from-orders.png" class="img-fluid sombraUno cursor-p h-low-zoom">
 
             <div class="espaciado"></div>
             <h3 class="fuenteSeis t1 text-shadow-a">
@@ -129,9 +129,9 @@
                 GROUP BY supplierId
             </h3>
             <p class="fuenteUno text-light fw-3">
-                Esta consulta trae todo el contenido de la tabla "ORDERS".
+                
             </p>
-            <img src="../../styles/assets/categorias/SQL/sql_003/select-from-orders7.png" alt="select-from-orders.png" class="img-fluid sombraUno cursor-p h-medium-zoom">
+            <img src="../../styles/assets/categorias/SQL/sql_003/select-from-orders7.png" alt="select-from-orders.png" class="img-fluid sombraUno cursor-p h-low-zoom">
             
             <div class="espaciado"></div>
             <h3 class="fuenteSeis t1 text-shadow-a">
@@ -141,9 +141,74 @@
                 GROUP BY supplierId
             </h3>
             <p class="fuenteUno text-light fw-3">
-                Esta consulta trae todo el contenido de la tabla "ORDERS".
+                
             </p>
-            <img src="../../styles/assets/categorias/SQL/sql_003/select-from-orders7.png" alt="select-from-orders.png" class="img-fluid sombraUno cursor-p h-medium-zoom">
+            <img src="../../styles/assets/categorias/SQL/sql_003/select-from-orders7.png" alt="select-from-orders.png" class="img-fluid sombraUno cursor-p h-low-zoom">
+
+            <div class="espaciado"></div>
+            <h3 class="fuenteSeis t1 text-shadow-a">
+                SELECT supplierid, COUNT (supplierid) as cantidad<br>
+                FROM Products<br>
+                GROUP BY SupplierID<br>
+                ORDER BY cantidad DESC
+            </h3>
+            <p class="fuenteUno text-light fw-3">
+                
+            </p>
+            <img src="../../styles/assets/categorias/SQL/sql_003/select-from-orders8.png" alt="select-from-orders.png" class="img-fluid sombraUno cursor-p h-low-zoom">
+
+            <div class="espaciado"></div>
+            <h3 class="fuenteSeis t1 text-shadow-a">
+                SELECT orderid, COUNT (orderid) as cantidad
+                FROM[Order Details] <br>
+                GROUP BY OrderID <br>
+                HAVING COUNT (*) >2 <br>
+                ORDER BY cantidad
+            </h3>
+            <p class="fuenteUno text-light fw-3">
+                
+            </p>
+            <img src="../../styles/assets/categorias/SQL/sql_003/select-from-orders9.png" alt="select-from-orders.png" class="img-fluid sombraUno cursor-p h-low-zoom">
+
+            <div class="espaciado"></div>
+            <h3 class="fuenteSeis t1 text-shadow-a">
+                SELECT orderid, COUNT (orderid) AS cantidad<br>
+                FROM[Order Details] <br>
+                GROUP BY OrderID<br>
+                SELECT sum (orderid) AS sumatotal<br>
+                FROM [order details]<br>
+            </h3>
+            <p class="fuenteUno text-light fw-3">
+                
+            </p>
+            <img src="../../styles/assets/categorias/SQL/sql_003/select-from-orders10.png" alt="select-from-orders.png" class="img-fluid sombraUno cursor-p h-low-zoom">
+
+            <div class="espaciado"></div>
+            <h3 class="fuenteSeis t1 text-shadow-a">
+                SELECT orderid, COUNT (orderid) AS cantidad<br>
+                FROM[Order Details] <br>
+                GROUP BY OrderID<br>
+                SELECT MAX(orderid) AS cantidadmaxima<br>
+                FROM [order details]
+            </h3>
+            <p class="fuenteUno text-light fw-3">
+                
+            </p>
+            <img src="../../styles/assets/categorias/SQL/sql_003/select-from-orders11.png" alt="select-from-orders.png" class="img-fluid sombraUno cursor-p h-low-zoom">
+
+            <div class="espaciado"></div>
+            <h3 class="fuenteSeis t1 text-shadow-a">
+                SELECT orderid, COUNT (orderid) AS cantidadg<br>
+                FROM[Order Details] <br>
+                GROUP BY OrderID<br>
+                SELECT min (orderid) AS cantidadminima<br>
+                FROM [order details]
+            </h3>
+            <p class="fuenteUno text-light fw-3">
+                
+            </p>
+            <img src="../../styles/assets/categorias/SQL/sql_003/select-from-orders12.png" alt="select-from-orders.png" class="img-fluid sombraUno cursor-p h-low-zoom">
+
         </div>
         <div class="col-md-1"></div>
     </div>

@@ -136,6 +136,13 @@
 .h-medium-zoom:hover{
     transform: scale(1.2);
 }
+.h-low-zoom{
+    transition: transform .2s;
+    cursor: pointer;
+}
+.h-low-zoom:hover{
+    transform: scale(1.05);
+}
 
 .shadow-hover:hover {
     box-shadow: 1px 39px 39px #000000;
