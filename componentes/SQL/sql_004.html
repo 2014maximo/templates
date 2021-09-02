@@ -12,7 +12,7 @@
 
     <link rel="stylesheet" href="../../styles/css/style.css">
     <link rel="stylesheet" href="../../styles/css/post.css">
-    <title>Ingresa un nombre de página</title>
+    <title>Consultas mySql</title>
 </head>
 
 <body class="fondoNegro">
@@ -24,18 +24,90 @@
 
     <!-- IMAGEN TITULAR ------------------------------------>
     <div class="headerPost sombraUno"
-        style="background: url(../../../styles/assets/banner/super_recursos_de_internet.jpg); background-size: cover; background-position: center;background-repeat: no-repeat;">
+        style="background: url(../../styles/assets/banner/bannerbibliotecasql.jpg); background-size: cover; background-position: center;background-repeat: no-repeat;">
     </div>
     <div class="espacio"></div>
-    <h2 class="tituloPost p-2 text-center">INGRESA UN TITULO</h2>
+    <h2 class="tituloPost p-2 text-center">CONSULTAS MYSQL</h2>
     <!-- FIN IMAGEN TITULAR ------------------------------------>
 
 
     <!-- CONTENIDO ------------------------------------------------------------------------->
-    <div class="espaciado"></div>
 
-    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, ut earum aperiam necessitatibus nulla cupiditate ipsa iusto! Velit assumenda magnam qui eos. Inventore eligendi minus pariatur impedit velit explicabo quam?</h1>
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+            <p class="fuenteUno text-light fw-3 mb-0 mr-2">
+                Partiendo de la base de datos ya elaborada se realizan consultas avanzadas en mySql:
+            </p>
+            <div class="espacio"></div>
+            <h3 class="fuenteSeis t1 text-shadow-a">Base de datos BIBLIOTECA</h3>
+            <div class="d-flex">
+                <p class="fuenteUno font-italic fs-17 text-primary mb-0 mr-2">biblioteca.sql</p>
+                <a href="../../styles/assets/categorias/SQL/sql_004/biblioteca.sql" title="biblioteca.sql" class="d-flexfw-3text-danger" target="_blank">
+                    <i class="fa fa-download fs-25 t1 h-zoom" aria-hidden="true"></i>
+                </a>
+            </div>
+            <p class="fuenteUno text-light fw-3 mb-0 mr-2">
+                i.	Libros<br>
+                ii.	Autores <br>
+                iii.	Idiomas<br>
+                iv.	Países<br>
+                v.	Usuarios <br>
+                vi.	Prestamos<br>
+                vii.	Detalle_prestamos<br>
+                <br>
+            </p>
+            <div class="espacio"></div>
+            <h3 class="fuenteSeis t1 text-shadow-a">Modelo Relacional</h3>
+            <img src="../../styles/assets/categorias/SQL/sql_004/modelo relacional-trans.png" alt="modelo relacional.png" class="img-fluid drop">
+            <div class="espaciado"></div>
 
+            <h3 class="fuenteSeis t1 text-shadow-a">SELECT COUNT(id_libro) as cantidad FROM detalle_prestamo;</h3>
+            <p class="fuenteUno text-light fw-3 mb-0 mb-2">A. Cantidad de libros prestados.</p>
+            <img src="../../styles/assets/categorias/SQL/sql_004/cantidadlibrosprestados.png" alt="cantidadlibrosprestados.png" class="img-fluid sombraUno">
+            <div class="espacio"></div>
+
+            <h3 class="fuenteSeis t1 text-shadow-a">SELECT SUM(multas) FROM prestamos;</h3>
+            <p class="fuenteUno text-light fw-3 mb-0 mb-2">B. Sumar la cantidad de multas.</p>
+            <img src="../../styles/assets/categorias/SQL/sql_004/sumamultas.png" alt="sumamultas.png" class="img-fluid sombraUno">
+            <div class="espacio"></div>
+
+            <h3 class="fuenteSeis t1 text-shadow-a">SELECT MAX(multas) FROM prestamos;</h3>
+            <p class="fuenteUno text-light fw-3 mb-0 mb-2">C. Máxima multa cobrada.</p>
+            <img src="../../styles/assets/categorias/SQL/sql_004/maximamulta.png" alt="maximamulta.png" class="img-fluid sombraUno">
+            <div class="espacio"></div>
+            
+            <h3 class="fuenteSeis t1 text-shadow-a">SELECT MIN(multas) FROM prestamos WHERE multas > 0;</h3>
+            <p class="fuenteUno text-light fw-3 mb-0 mb-2">D. Mínima multa cobrada.</p>
+            <img src="../../styles/assets/categorias/SQL/sql_004/minimamulta.png" alt="minimamulta.png" class="img-fluid sombraUno">
+            <div class="espacio"></div>
+
+            <h3 class="fuenteSeis t1 text-shadow-a">SELECT AVG(multas) FROM prestamos;</h3>
+            <p class="fuenteUno text-light fw-3 mb-0 mb-2">E. Promedio de multas.</p>
+            <img src="../../styles/assets/categorias/SQL/sql_004/promediomultas.png" alt="promediomultas.png" class="img-fluid sombraUno">
+            <div class="espacio"></div>
+
+            <h3 class="fuenteSeis t1 text-shadow-a">SELECT libros.Nombre, idiomas.Idioma from libros INNER JOIN idiomas ON libros.Id_idioma=idiomas.Id_idioma WHERE idiomas.Idioma="Árabe" OR idiomas.idioma="Latín clásico" OR idiomas.Idioma="persa";</h3>
+            <p class="fuenteUno text-light fw-3 mb-0 mb-2">F. Listado de libros cuyo idioma sea árabe, latín clásico o persa.</p>
+            <img src="../../styles/assets/categorias/SQL/sql_004/librosidiomaarabelatinpersa.png" alt="librosidiomaarabelatinpersa.png" class="img-fluid sombraUno">
+            <div class="espacio"></div>
+
+            <h3 class="fuenteSeis t1 text-shadow-a">SELECT * FROM usuarios WHERE fecha_naciomiento BETWEEN '2000-01-01' AND '2005-12-31';</h3>
+            <p class="fuenteUno text-light fw-3 mb-0 mb-2">G. Listado de usuarios nacidos entre 01/01/2000 y 31/12/2005.</p>
+            <img src="../../styles/assets/categorias/SQL/sql_004/nacidossentre.png" alt="nacidossentre.png" class="img-fluid sombraUno">
+            <div class="espacio"></div>
+
+
+
+
+
+
+
+
+
+        </div>
+        <div class="col-md-1"></div>
+    </div>
     <div class="espaciado"></div>
 
         <!-- Footer --------->
