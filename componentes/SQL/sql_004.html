@@ -87,14 +87,99 @@
             <img src="../../styles/assets/categorias/SQL/sql_004/promediomultas.png" alt="promediomultas.png" class="img-fluid sombraUno">
             <div class="espacio"></div>
 
-            <h3 class="fuenteSeis t1 text-shadow-a">SELECT libros.Nombre, idiomas.Idioma from libros INNER JOIN idiomas ON libros.Id_idioma=idiomas.Id_idioma WHERE idiomas.Idioma="Árabe" OR idiomas.idioma="Latín clásico" OR idiomas.Idioma="persa";</h3>
+            <h3 class="fuenteSeis t1 text-shadow-a">
+                SELECT libros.Nombre, idiomas.Idioma from libros<br>
+                INNER JOIN idiomas ON libros.Id_idioma=idiomas.Id_idioma<br>
+                WHERE idiomas.Idioma="Árabe"<br>
+                OR idiomas.idioma="Latín clásico"<br>
+                OR idiomas.Idioma="persa";
+            </h3>
             <p class="fuenteUno text-light fw-3 mb-0 mb-2">F. Listado de libros cuyo idioma sea árabe, latín clásico o persa.</p>
             <img src="../../styles/assets/categorias/SQL/sql_004/librosidiomaarabelatinpersa.png" alt="librosidiomaarabelatinpersa.png" class="img-fluid sombraUno">
             <div class="espacio"></div>
 
-            <h3 class="fuenteSeis t1 text-shadow-a">SELECT * FROM usuarios WHERE fecha_naciomiento BETWEEN '2000-01-01' AND '2005-12-31';</h3>
+            <h3 class="fuenteSeis t1 text-shadow-a">
+                SELECT * FROM usuarios<br>
+                WHERE fecha_naciomiento<br>
+                BETWEEN '2000-01-01' AND '2005-12-31';
+            </h3>
             <p class="fuenteUno text-light fw-3 mb-0 mb-2">G. Listado de usuarios nacidos entre 01/01/2000 y 31/12/2005.</p>
             <img src="../../styles/assets/categorias/SQL/sql_004/nacidossentre.png" alt="nacidossentre.png" class="img-fluid sombraUno">
+            <div class="espacio"></div>
+
+
+            <h3 class="fuenteSeis t1 text-shadow-a">
+                SELECT libros.Nombre,autores.Nombre,paises.Pais,idiomas.Idioma FROM `libros`<br>
+                INNER JOIN autores ON libros.Id_autor = autores.Id_autor<br>
+                INNER JOIN paises ON libros.Id_pais = paises.Id_pais<br>
+                INNER JOIN idiomas ON libros.Id_idioma = idiomas.Id_idioma;
+            </h3>
+            <p class="fuenteUno text-light fw-3 mb-0 mb-2">H. Nombre de libro, nombre de autor, país e idioma.</p>
+            <img src="../../styles/assets/categorias/SQL/sql_004/librosautorespaisidioma.png" alt="librosautorespaisidioma.png" class="img-fluid sombraUno">
+            <div class="espacio"></div>
+
+
+            <h3 class="fuenteSeis t1 text-shadow-a">
+                SELECT usuarios.Nombre, usuarios.Apellido, prestamos.Id_prestamo FROM usuarios<br>
+                INNER JOIN prestamos ON usuarios.Cedula=prestamos.Id_usuario<br>
+                WHERE prestamos.Id_prestamo=100<br>
+                OR prestamos.Id_prestamo=200<br>
+                OR prestamos.Id_prestamo=500;
+            </h3>
+            <p class="fuenteUno text-light fw-3 mb-0 mb-2">I. Nombre de usuarios que realizaron los números de préstamo 100, 200 y 500</p>
+            <img src="../../styles/assets/categorias/SQL/sql_004/nombresusuariosprestamos.png" alt="nombresusuariosprestamos.png" class="img-fluid sombraUno">
+            <div class="espacio"></div>
+
+
+            <h3 class="fuenteSeis t1 text-shadow-a">
+                SELECT Cedula, Nombre, Apellido, Celular, Multas FROM usuarios<br>
+                INNER JOIN prestamos ON usuarios.Cedula=prestamos.Id_usuario <br>
+                WHERE prestamos.Multas>0;
+            </h3>
+            <p class="fuenteUno text-light fw-3 mb-0 mb-2">J. Id de usuario, Nombre y número de celular de los usuarios que pagaron multa.</p>
+            <img src="../../styles/assets/categorias/SQL/sql_004/idnombrecelularpagaronmulta.png" alt="idnombrecelularpagaronmulta.png" class="img-fluid sombraUno">
+            <div class="espacio"></div>
+
+            
+            <h3 class="fuenteSeis t1 text-shadow-a">
+                SELECT Nombre FROM usuarios WHERE Nombre LIKE "%José%"
+            </h3>
+            <p class="fuenteUno text-light fw-3 mb-0 mb-2">K. Listado de todos los usuarios que contengan el nombre José</p>
+            <img src="../../styles/assets/categorias/SQL/sql_004/usuarioscontenganjose.png" alt="usuarioscontenganjose.png" class="img-fluid sombraUno">
+            <div class="espacio"></div>
+
+
+            <h3 class="fuenteSeis t1 text-shadow-a">
+                SELECT s.Id_libro, l.Nombre, MAX(s.TOTAL)  FROM libros l,<br>
+                (SELECT Id_libro, COUNT( Id_libro ) AS TOTAL FROM detalle_prestamo GROUP BY Id_libro ORDER BY TOTAL DESC) s
+            </h3>
+            <p class="fuenteUno text-light fw-3 mb-0 mb-2">M. Nombre del  libro que más se ha prestado.</p>
+            <img src="../../styles/assets/categorias/SQL/sql_004/libromasprestado.png" alt="libromasprestado.png" class="img-fluid sombraUno">
+            <div class="espacio"></div>
+
+
+            <h3 class="fuenteSeis t1 text-shadow-a">
+                SELECT s.Id_libro, l.Nombre, MAX(s.TOTAL)  FROM libros l,<br>
+                (SELECT Id_libro, COUNT( Id_libro ) AS TOTAL FROM detalle_prestamo GROUP BY Id_libro ORDER BY TOTAL ASC) s
+            </h3>
+            <p class="fuenteUno text-light fw-3 mb-0 mb-2">L. Nombre del  libro que menos se ha prestado.</p>
+            <img src="../../styles/assets/categorias/SQL/sql_004/libromasprestado.png" alt="libromasprestado.png" class="img-fluid sombraUno">
+            <div class="espacio"></div>
+
+
+            <h3 class="fuenteSeis t1 text-shadow-a">
+                SELECT COUNT(Apellido) FROM usuarios WHERE Apellido LIKE '%fernandez%';
+            </h3>
+            <p class="fuenteUno text-light fw-3 mb-0 mb-2">N. Cuántas veces aparece el apellido Fernández.</p>
+            <img src="../../styles/assets/categorias/SQL/sql_004/cantidadaparecefernandez.png" alt="cantidadaparecefernandez.png" class="img-fluid sombraUno">
+            <div class="espacio"></div>
+
+
+            <h3 class="fuenteSeis t1 text-shadow-a">
+                SELECT COUNT(Idioma) FROM idiomas WHERE Idioma LIKE '%español%';
+            </h3>
+            <p class="fuenteUno text-light fw-3 mb-0 mb-2">O. Cantidad de libros en español.</p>
+            <img src="../../styles/assets/categorias/SQL/sql_004/cantidadlibrosespanol.png" alt="cantidadlibrosespanol.png" class="img-fluid sombraUno">
             <div class="espacio"></div>
 
 
