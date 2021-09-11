@@ -28,6 +28,7 @@ class SellMenuCatDevelop extends HTMLElement {
               <div class="col bg-Develop pos-z l-menu"><a href="componentes/DEVELOP/dev_008.html">MÉTOLOGÍAS ÁGILES</a></div>
               <div class="col bg-Develop rot-1 l-menu"><a href="componentes/DEVELOP/dev_009.html">VISUAL STUDIO EXT..</a></div>
               <div class="col bg-Develop rot-1 l-menu"><a href="componentes/DEVELOP/dev_010.html">FICHA MODELO CANVAS</a></div>
+              <div class="col bg-Develop pos-z l-menu"><a href="componentes/DEVELOP/dev_011.html">MOCKUPS Y RECOMENDACIONES</a></div>
             </div>
           </div>
           <div class="col-md-1"></div>

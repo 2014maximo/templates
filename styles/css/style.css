@@ -121,6 +121,11 @@ html{
 .h200{
     height: 200px;
 }
+.centrar-centrar{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
 /* Para las categorías */
 .bg-Android{
     background-color: #85b84e;
