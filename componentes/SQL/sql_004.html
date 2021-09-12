@@ -232,6 +232,18 @@
             <div class="espacio"></div>
 
 
+            <h3 class="fuenteSeis t1 text-shadow-a">
+                SELECT<br>
+                (@contador := @contador + 1) AS indice,<br>
+                Nombre, Año_publicacion<br>
+                FROM libros<br>
+                CROSS JOIN (SELECT @contador := 0) AS b;
+            </h3>
+            <p class="fuenteUno text-light fw-3 mb-0 mb-2">P. Realizar una consulta de nombre y fecha de publicación con un índice de ordenación.</p>
+            <img src="../../styles/assets/categorias/SQL/sql_004/busquedaindexada.png" alt="cantidadlibrosespanol.png" class="img-fluid sombraUno">
+            <div class="espacio"></div>
+
+
 
 
 
