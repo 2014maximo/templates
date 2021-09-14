@@ -67,6 +67,9 @@ html{
 .transparenciaUno {
     background: rgba(0,0,0,0.3) !important;
 }
+.transparenciaDos {
+    background: rgba(0,0,0,0.8) !important;
+}
 .sombra-texto {
     text-shadow: 5px 10px 5px #000000;
 }
@@ -460,4 +463,24 @@ a:hover {
     background-attachment: fixed;
     box-shadow: 1px 39px 39px #000000;
     margin-bottom: 5rem;
+}
+.menu {
+    list-style: none;
+}
+
+.bt-login {
+    color: black;
+    padding: 10px;
+    font-family: var(--fuente-dos);
+    font-weight: 600;
+    font-size: 20px;
+}
+.contenedor-boton{
+    height: 53px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    transition: all ease-in;
 }
