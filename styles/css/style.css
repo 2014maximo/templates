@@ -289,6 +289,12 @@ a:hover {
 .lh-30{
     line-height: 30px !important;
 }
+.lh-40{
+    line-height: 40px !important;
+}
+.lh-50{
+    line-height: 50px !important;
+}
 .ww-break {
     word-wrap: break-word;
     overflow: auto;
