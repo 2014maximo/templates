@@ -49,6 +49,12 @@ if(menuBtn){
 
  function typing(){
 
+  var btclick = document.getElementById('btnclick');
+  btclick.style.display = 'none';
+
+  var btmostrarclick = document.getElementById('btnmostrar');
+  btmostrarclick.style.height = '160px';
+  
   var listaTexto = [
                   "Ha llegado un nuevo integrante a nuestra familia, se trata de MICROSOFT AZURE DEVOPS     ",           "Es el momento de entender como nos apoyará en la ejecución de nuestras tareas diarias y como con él trabajaremos para lograr una cultura 'DEVOPS'     ",
                   "Los días presenciales estaremos en capacitaciones de: HISTORIAS DE USUARIO, TABLEROS AZURE, PIPELINES AZURE       ",
