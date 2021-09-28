@@ -50,18 +50,9 @@ if(menuBtn){
  function typing(){
 
   var listaTexto = [
-                  "Ha llegado un nuevo integrante a nuestra familia,", 
-                  "se trata de AZURE",
-                  "-",
-                  "Es el momento de entender como trabajaremos con su compañía y le saquemos todo el provecho",
-                  "Los días presenciales estaremos en capacitaciones de:",
-                  "HISTORIAS DE USUARIO",
-                  "TABLEROS AZURE",
-                  "PIPELINES DE AZURE",
-                  "-",
-                  "-",
-                  "....",
-                  "¡CONTAMOS CONTIGO!",
+                  "Ha llegado un nuevo integrante a nuestra familia, se trata de MICROSOFT AZURE DEVOPS     ",           "Es el momento de entender como nos apoyará en la ejecución de nuestras tareas diarias y como con él trabajaremos para lograr una cultura 'DEVOPS'     ",
+                  "Los días presenciales estaremos en capacitaciones de: HISTORIAS DE USUARIO, TABLEROS AZURE, PIPELINES AZURE       ",
+                  "Revisa tu agenda y participa - ....¡CONTAMOS CONTIGO!       "
                 ]  
   maquinaLista("typer",80,listaTexto,0);
   
