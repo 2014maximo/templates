@@ -63,7 +63,7 @@ if(menuBtn){
                   "....",
                   "¡CONTAMOS CONTIGO!",
                 ]  
-  maquinaLista("typer",80,listaTexto,1);
+  maquinaLista("typer",80,listaTexto,0);
   
   function maquinaLista(contenedor, intervalo, listaTexto, indice){      
 	if (indice == listaTexto.length){
