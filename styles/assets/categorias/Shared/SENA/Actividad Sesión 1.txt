@@ -1,0 +1,17 @@
+Actividad Sesión1
+
+Organizar un documento en word, donde se evidencie la respuesta a las siguientes preguntas y compartir el archivo en el drive, en la carpeta de Evidencias/Sesión1 y dentro de esta, crear una carpeta con los integrantes del grupo
+ 
+En el marco de la definición de los requerimientos para construir un sistema de información, la recolección de datos es un proceso meticuloso y complejo, que requiere de instrumentos adecuados para obtener los datos necesarios para el proceso de análisis y levantamiento de requerimientos, para lo cual, se formula algunos interrogantes que le posibilitan precisar el propósito de esta actividad.
+
+Con conciencia de lo anterior, te invito a deliberar sobre las siguientes interrogaciones.
+
+1.¿Por qué consideran que es necesario conocer las fuentes de información en el arte de la investigación?
+2.¿A que hace referencia el concepto de muestra en la recolección de información?
+3.¿Sobre qué métodos de recolección de datos se estructura un instrumento de recolección?
+4.¿Cuáles son los problemas que se presentan en la recolección de datos?
+5.¿Cómo surge el diseño y construcción de los instrumentos de recolección de datos?
+6.¿Qué herramientas de tabulación de la información son requeridas?
+7.¿Cómo contribuye la recolección, tabulación y exposición de la información, a la definición de los requerimientos necesarios para construir el sistema de información?
+
+Para responder estas preguntas, puede apoyarse del siguiente video: https://www.youtube.com/watch?v=Ls9kxijo-JA

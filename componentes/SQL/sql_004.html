@@ -197,8 +197,9 @@
 
 
             <h3 class="fuenteSeis t1 text-shadow-a">
-                SELECT s.Id_libro, l.Nombre, MAX(s.TOTAL)  FROM libros l,<br>
-                (SELECT Id_libro, COUNT( Id_libro ) AS TOTAL FROM detalle_prestamo GROUP BY Id_libro ORDER BY TOTAL DESC) s
+                SELECT Id_libro,COUNT( Id_libro )<br>
+                AS TOTAL, l.nombre FROM detalle_prestamo d,<br>
+                libros l where l.Id_libros = d.id_libro GROUP BY Id_libro ORDER BY TOTAL DESC LIMIT 1;
             </h3>
             <p class="fuenteUno text-light fw-3 mb-0 mb-2">M. Nombre del  libro que más se ha prestado.</p>
             <img src="../../styles/assets/categorias/SQL/sql_004/libromasprestado.png" alt="libromasprestado.png" class="img-fluid sombraUno">
@@ -206,11 +207,12 @@
 
 
             <h3 class="fuenteSeis t1 text-shadow-a">
-                SELECT s.Id_libro, l.Nombre, MAX(s.TOTAL)  FROM libros l,<br>
-                (SELECT Id_libro, COUNT( Id_libro ) AS TOTAL FROM detalle_prestamo GROUP BY Id_libro ORDER BY TOTAL ASC) s
+                SELECT Id_libro,COUNT( Id_libro )<br>
+                AS TOTAL, l.nombre FROM detalle_prestamo d,<br>
+                libros l where l.Id_libros = d.id_libro GROUP BY Id_libro ORDER BY TOTAL ASC LIMIT 1;
             </h3>
             <p class="fuenteUno text-light fw-3 mb-0 mb-2">L. Nombre del  libro que menos se ha prestado.</p>
-            <img src="../../styles/assets/categorias/SQL/sql_004/libromasprestado.png" alt="libromasprestado.png" class="img-fluid sombraUno">
+            <img src="../../styles/assets/categorias/SQL/sql_004/libromenosprestado.png" alt="libromasprestado.png" class="img-fluid sombraUno">
             <div class="espacio"></div>
 
 
@@ -227,6 +229,18 @@
             </h3>
             <p class="fuenteUno text-light fw-3 mb-0 mb-2">O. Cantidad de libros en español.</p>
             <img src="../../styles/assets/categorias/SQL/sql_004/cantidadlibrosespanol.png" alt="cantidadlibrosespanol.png" class="img-fluid sombraUno">
+            <div class="espacio"></div>
+
+
+            <h3 class="fuenteSeis t1 text-shadow-a">
+                SELECT<br>
+                (@contador := @contador + 1) AS indice,<br>
+                Nombre, Año_publicacion<br>
+                FROM libros<br>
+                CROSS JOIN (SELECT @contador := 0) AS b;
+            </h3>
+            <p class="fuenteUno text-light fw-3 mb-0 mb-2">P. Realizar una consulta de nombre y fecha de publicación con un índice de ordenación.</p>
+            <img src="../../styles/assets/categorias/SQL/sql_004/busquedaindexada.png" alt="cantidadlibrosespanol.png" class="img-fluid sombraUno">
             <div class="espacio"></div>
 
 
