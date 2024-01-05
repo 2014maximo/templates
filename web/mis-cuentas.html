@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../styles/assets/icon/favicon.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="../styles/css/style.css">
+    <link rel="stylesheet" href="https://plantillas_dev.gitlab.io/styles/css/max.css">
+    <title>CONSUMOS</title>
+</head>
+
+<body class="bg-gradient-black-gray-one">
+
+    <!--  HEADER ------------------------------------------------------------>
+    <sell-head></sell-head>
+    <!-- FIN -HEADER -------------------------------------------------------->
+
+    <div class="espaciado"></div>
+    <h2 class="tituloPost p-2 text-center" id="fechaActual"></h2>
+    <script>
+        // Obtén la fecha actual
+        var fechaActual = new Date();
+        
+        // Formatea la fecha para mostrarla en un formato legible
+        var opcionesDeFormato = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true };
+        var fechaFormateada = fechaActual.toLocaleDateString('es-ES', opcionesDeFormato);
+        
+        // Obtén el elemento HTML por su id
+        var elementoFecha = document.getElementById('fechaActual');
+        
+        // Asigna la fecha formateada al contenido del elemento
+        elementoFecha.textContent = fechaFormateada;
+        </script>
+
+<!-- FIN IMAGEN TITULAR ------------------------------------>
+
+<div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-10">
+            <div class="espaciado"></div>
+            <div class="row">
+            <!-- 
+                ╔═╗╔═╗╔╦╗
+                ║╣ ╠═╝║║║
+                ╚═╝╩  ╩ ╩
+            -->
+                <div class="col-md-4 border shadow-three p-4">
+                    <img src="../assets/img/icons/epm.svg" alt="" height="auto" width="100%">
+                    <p class="f-open-sans-c text-info fs-18 m-0">
+                        CASA SOCORRO
+                    </p>
+                    <div class="row">
+                        <div class="col-6">
+                            <p class="f-open-sans-c text-info fs-18 m-0">
+                                <small>
+                                    Fecha último pago:
+                                </small>
+                            </p>
+                            <div class="f-shadow-into-l text-info fs-30 lh-30">
+                                5 Dic 2023
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <p class="f-open-sans-c text-info fs-18 m-0">
+                                <small>
+                                    Valor:
+                                </small>
+                            </p>
+                            <div class="f-shadow-into-l text-info fs-30 lh-30">
+                                $300.000
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <p class="f-open-sans-c text-info fs-18 m-0">
+                                <small>
+                                    Facturas pagadas:
+                                </small>
+                            </p>
+                            <div class="f-shadow-into-l text-info fs-30 lh-30">
+                                Nov, Oct
+                            </div>
+                        </div>
+                    </div>
+                    <p class="f-open-sans-c text-warning fs-18 m-0 mt-4">
+                        MI APARTA ESTUDIO
+                    </p>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <p class="f-open-sans-c text-warning fs-18 m-0">
+                                <small>
+                                    Fecha último pago:
+                                </small>
+                            </p>
+                            <div class="f-shadow-into-l text-warning fs-30 lh-30">
+                                5 Dic 2023
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <p class="f-open-sans-c text-warning fs-18 m-0">
+                                <small>
+                                    Valor:
+                                </small>
+                            </p>
+                            <div class="f-shadow-into-l text-warning fs-30 lh-30">
+                                $300.000
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <p class="f-open-sans-c text-warning fs-18 m-0">
+                                <small>
+                                    Facturas pagadas:
+                                </small>
+                            </p>
+                            <div class="f-shadow-into-l text-warning fs-30 lh-30">
+                                Oct, Nov
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            <!--                                 
+                ╔╦╗╦╔═╗╔═╗
+                 ║ ║║ ╦║ ║
+                 ╩ ╩╚═╝╚═╝
+            -->
+
+                <div class="col-md-4 border shadow-three p-4">
+                    <img src="../assets/img/icons/tigo.png" alt="" height="auto" width="100%">
+                    <p class="f-open-sans-c text-secondary fs-18 m-0 mt-4">
+                        INTERNET HOGAR
+                    </p>
+                    <div class="row">
+                        <div class="col-6">
+                            <p class="f-open-sans-c text-secondary fs-18 m-0">
+                                <small>
+                                    Fecha último pago:
+                                </small>
+                            </p>
+                            <div class="f-shadow-into-l text-secondary fs-30 lh-30">
+                                5 Dic 2023
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <p class="f-open-sans-c text-secondary fs-18 m-0">
+                                <small>
+                                    Valor:
+                                </small>
+                            </p>
+                            <div class="f-shadow-into-l text-secondary fs-30 lh-30">
+                                $60.000
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <p class="f-open-sans-c text-secondary fs-18 m-0">
+                                <small>
+                                    Mes pagado:
+                                </small>
+                            </p>
+                            <div class="f-shadow-into-l text-secondary fs-30 lh-30">
+                                Nov
+                            </div>
+                        </div>
+                    </div>
+                    <p class="f-open-sans-c text-primary fs-18 m-0 mt-4">
+                        DATOS CELULAR
+                    </p>
+                    <div class="row">
+                        <div class="col-6">
+                            <p class="f-open-sans-c text-primary fs-18 m-0">
+                                <small>
+                                    Fecha último pago:
+                                </small>
+                            </p>
+                            <div class="f-shadow-into-l text-primary fs-30 lh-30">
+                                5 Dic 2023
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <p class="f-open-sans-c text-primary fs-18 m-0">
+                                <small>
+                                    Valor:
+                                </small>
+                            </p>
+                            <div class="f-shadow-into-l text-primary fs-30 lh-30">
+                                $60.000
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <p class="f-open-sans-c text-primary fs-18 m-0">
+                                <small>
+                                    Mes pagado:
+                                </small>
+                            </p>
+                            <div class="f-shadow-into-l text-primary fs-30 lh-30">
+                                Nov
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                                
+            <!--
+                ╔╦╗╔═╗╔╦╗╔═╗╔═╗
+                ║║║║ ║ ║ ║ ║╚═╗
+                ╩ ╩╚═╝ ╩ ╚═╝╚═╝
+            -->
+                <div class="col-md-4 border shadow-three p-4">
+                    <img src="../assets/img/icons/mt03.png" alt="" height="auto" width="100%" class="drop">
+                    <div class="row">
+                        <div class="col-12 m-0 p-0">
+                            <p class="f-open-sans-c text-light fs-18 m-0">
+                                <small>
+                                    Kilometraje actual:
+                                </small>
+                            </p>
+                            <div class="f-shadow-into-l text-light fs-30 lh-30">
+                                41.085 kms
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-6 m-0 p-0">
+                            <p class="f-open-sans-c text-light fs-18 m-0 lh-18">
+                                <small>
+                                    Kilometraje donde se cambio el aceite:
+                                </small>
+                            </p>
+                            <div class="f-shadow-into-l text-light fs-30 lh-30">
+                                ---
+                            </div>
+                        </div>
+                        <div class="col-6 m-0 p-0">
+                            <p class="f-open-sans-c text-light fs-18 m-0 lh-18">
+                                <small>
+                                    Próximo cambio de aceite:
+                                </small>
+                            </p>
+                            <div class="f-shadow-into-l text-light fs-30 lh-30">
+                                ---
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col">
+                            <p class="f-open-sans-c text-warning fs-18 m-0">
+                                <small>
+                                    SOAT hasta:
+                                </small>
+                            </p>
+                            <div class="f-shadow-into-l text-warning fs-30 lh-30">
+                                5 Oct 2024
+                            </div>
+                        </div>
+                        <div class="col">
+                            <p class="f-open-sans-c text-warning fs-18 m-0 lh-18">
+                                <small>
+                                    Tecnomecánica hasta:
+                                </small>
+                            </p>
+                            <div class="f-shadow-into-l text-warning fs-30 lh-30">
+                                ---
+                            </div>
+                        </div>
+                    </div>
+                    <div class="f-shadow-into-l mt-4 text-danger fs-30 lh-30">
+                        ROLANDO PLAZAS
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <p class="f-open-sans-c text-danger fs-18 m-0">
+                                <small>
+                                    Fecha de último pago:
+                                </small>
+                            </p>
+                            <div class="f-shadow-into-l text-danger fs-30 lh-30">
+                                5 Oct 2024
+                            </div>
+                        </div>
+                        <div class="col">
+                            <p class="f-open-sans-c text-danger fs-18 m-0 lh-18">
+                                <small>
+                                    Meses pagados:
+                                </small>
+                            </p>
+                            <div class="f-shadow-into-l text-danger fs-30 lh-30">
+                                ---
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 border shadow-three p-4 mt-3">
+                    <img src="../assets/img/icons/fino.png" alt="" height="auto" width="100%" class="drop">
+                    <div class="row">
+                        <div class="col-12 m-0 p-0">
+                            <p class="f-open-sans-c text-light fs-18 m-0">
+                                <small>
+                                    Kilometraje actual:
+                                </small>
+                            </p>
+                            <div class="f-shadow-into-l text-light fs-30 lh-30">
+                                41.085 kms
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-6 m-0 p-0">
+                            <p class="f-open-sans-c text-light fs-18 m-0 lh-18">
+                                <small>
+                                    Kilometraje donde se cambio el aceite:
+                                </small>
+                            </p>
+                            <div class="f-shadow-into-l text-light fs-30 lh-30">
+                                ---
+                            </div>
+                        </div>
+                        <div class="col-6 m-0 p-0">
+                            <p class="f-open-sans-c text-light fs-18 m-0 lh-18">
+                                <small>
+                                    Próximo cambio de aceite:
+                                </small>
+                            </p>
+                            <div class="f-shadow-into-l text-light fs-30 lh-30">
+                                ---
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <p class="f-open-sans-c text-warning fs-18 m-0">
+                                <small>
+                                    SOAT hasta:
+                                </small>
+                            </p>
+                            <div class="f-shadow-into-l text-warning fs-30 lh-30">
+                                5 Oct 2024
+                            </div>
+                        </div>
+                        <div class="col">
+                            <p class="f-open-sans-c text-warning fs-18 m-0 lh-18">
+                                <small>
+                                    Tecnomecánica hasta:
+                                </small>
+                            </p>
+                            <div class="f-shadow-into-l text-warning fs-30 lh-30">
+                                ---
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="espaciar"></div>
+            
+            <h3 class="text-light f-open-sans-c mb-5">
+                DATOS RECURRENTES
+            </h3>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="f-shadow-into-l text-warning fs-30 lh-30">
+                        Wilson Agudelo
+                    </div>
+                    <p class="f-open-sans-c text-light fs-18 m-0 lh-18">
+                        <small>
+                            Cédula:
+                        </small>
+                        <br>
+                        98509305
+                    </p>
+                    <p class="f-open-sans-c text-light fs-18 m-0 lh-18">
+                        <small>
+                            Ahorros Bancolombia:
+                        </small>
+                        <br>
+                        10825152932
+                    </p>
+                    <div class="espacio"></div>
+                </div>
+                <div class="col-md-4">
+                    <div class="f-shadow-into-l text-warning fs-30 lh-30">
+                        Mary Yuleni Jimenez Giraldo
+                    </div>
+                    <p class="f-open-sans-c text-light fs-18 m-0 lh-18">
+                        <small>
+                            Cédula:
+                        </small>
+                        <br>
+                        1020394469
+                    </p>
+                    <p class="f-open-sans-c text-light fs-18 m-0 lh-18">
+                        <small>
+                            Ahorros Bancolombia:
+                        </small>
+                        <br>
+                        31113559287
+                    </p>
+                    <img src="../assets/img/qr/qr-yule.jpg" alt="" height="auto" width="100%" class="mt-3">
+                    <div class="espacio"></div>
+                </div>
+                <div class="col-md-4">
+                    <div class="f-shadow-into-l text-warning fs-30 lh-30">
+                        Alex Muñoz
+                    </div>
+                    <p class="f-open-sans-c text-light fs-18 m-0 lh-18">
+                        <small>
+                            Ahorros Bancolombia:
+                        </small>
+                        <br>
+                        55159072036
+                    </p>
+                    <img src="../assets/img/qr/qr-alex.jpg" alt="" height="auto" width="100%" class="mt-3">
+                    <div class="espacio"></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-1"></div>
+    </div>
+
+    <div class="espaciado"></div>
+
+
+    <!-- CONTENIDO ------------------------------------------------------------------------->
+    <div class="espaciado"></div>
+
+    <!-- Footer --------->
+    <sell-footer></sell-footer>
+
+    <div class="espacio"></div>
+    <script src="../../home/footer.js"></script>
+    <script src="../../home/wc-header-inter.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
